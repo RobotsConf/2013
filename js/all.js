@@ -265,7 +265,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     });
   };
 }));
-var TRIGGER = 1369746000000; // set to May 28th to include opening events
+var TRIGGER = 1376884800000; // set to August 19th to include opening events
 var SECOND = 1000;
 var MINUTE = 60000;
 var HOUR = 3600000;
@@ -364,10 +364,10 @@ function activateMenu(key) {
 function setTwitter() {
 	$("#tweet").tweet({
       join_text: "auto",
-      username: "jsconf",
+      username: "robotsconf",
       avatar_size: 48,
       count: 1,
-      template: "<a href='http://twitter.com/jsconf'>@JSConf</a> said: {text} » {retweet_action}",
+      template: "<a href='http://twitter.com/robotsconf'>@RobotsConf</a> said: {text} » {retweet_action}",
       loading_text: "loading tweets..."
     });
 }
@@ -406,7 +406,7 @@ $(function () {
     });
     $(".speaker").hover(function () {
     	$(this).addClass("hover");
-    }, function () { 
+    }, function () {
     	$(this).removeClass("hover");
     })
 
