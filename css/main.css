@@ -40,9 +40,6 @@ a, a:link, a:visited { color: #277085;}
 	padding-bottom:20px;
 }
 
-#left-content ul, #left-content div {
-margin-left:19px;
-}
 #right {  margin-left:228px; width: 756px;}
 #left a.brand { display: block; margin: 0px; padding: 0px; height: 170px;}
 #left hr { display: none;}
@@ -51,10 +48,10 @@ margin-left:19px;
 #left .nav li { padding-left: 36px;  line-height:20px;  text-align: center; padding-left: 11px; margin-bottom: 4px;}
 #left .nav li.active a,#left .nav li a:hover { background-color: #ff5200;}
 .nav .active a,.nav .active a:link,.nav .active a:visited  { color: #ffaf10; }
-#social { margin: 20px 0px 20px 27px;}
+#social { margin: 0px; margin-left:45px;  }
 
 #social a { display:block; float:left; margin-right: 13px; height: 26px; width: 27px; text-indent: -999px; background: url(/img/social-icons.png); overflow:hidden;}
-#social a#gplus-button { background-position: -80px 0px;}
+#social a#gplus-button { background-position: -80px 0px; margin-right: 0px;}
 #social a#twitter-button { background-position: -40px 0px;}
 #social a#facebook-button { background-position: 0px 0px;}
 
@@ -63,13 +60,14 @@ margin-left:19px;
 #social a#facebook:hover { background-position: 0px -52px;}
 
 
-#countdown {  font-weight: bold; margin:25px 0px;}
-#days { font-size:30px; text-align: center; color:#256f84; width: 161px;}
-#daystep { font-size: 22px; text-align: center; color: #8da9a6;width: 161px;}
+#countdown {  font-weight: bold; margin:10px 0px;  width: 175px;margin-left:12px; text-align:center;}
+
+#days { font-size:30px; text-align: center; color:#256f84; width: 175px;}
+#daystep { font-size: 22px; text-align: center; color: #8da9a6;width: 175px;}
 #temperature{ font-size:24px; font-weight: bold;}
 #high { color:#ff9c00;}
 #low { color: #797979;}
-#heaven { text-align: center; width:161px;}
+#heaven { text-align: center; width:175px; margin-left:12px}
 #location{ font-size: 14px;  font-weight: bold; color:#333333;}
 #location span { display: none;}
 #weather { height: 132px;}
@@ -110,38 +108,37 @@ h1 {
 	display:block;
 	width: 756px;
 	margin-bottom:12px;
-	margin-top: 50px;
-	font-family: 'Molle', helvetica;
-	font-weight: 400;
-	font-style: italic;
-	color:#326F83;
-	background: url(/img/header.png) top left no-repeat;
+	margin-top: 25px;
+	font-family: 'Monda', helvetica;
+	font-weight: 700;
+
+	color:white;
+	/*background: url(/img/header.png) top left no-repeat;*/
 }
 h1 i {
-	padding-left: 60px;
+	padding-left: 80px;
 	display: block;
+	font-style: normal;
 }
-#schedule h1 i { background: url(/img/schedule.png) center left no-repeat;}
-#venue h1 i  { background: url(/img/venue.png) center left no-repeat;}
-#about h1 i  { background: url(/img/about.png) center left no-repeat;}
-#speakers h1 i  { background: url(/img/speakers.png) center left no-repeat;}
-#trainers h1 i  { background: url(/img/speakers.png) center left no-repeat;}
-#sponsors h1 i  { background: url(/img/sponsors.png) center left no-repeat;}
+#schedule h1 i { background: url(/img/icons.png) 0px -253px  no-repeat;}
+#about h1 i { background: url(/img/icons.png) 0px -655px  no-repeat;}
+#venue h1 i  { background: url(/img/icons.png) 0px -587px no-repeat;}
+/*#about h1 i  { background: url(/img/icons.png) center left no-repeat;}*/
+#speakers h1 i  { background: url(/img/icons.png) center left no-repeat;}
+#trainers h1 i  { background: url(/img/icons.png) center left no-repeat;}
+#sponsors h1 i  { background: url(/img/icons.png) center left no-repeat;}
 
 
 .left { float: left;}
 .right { float: right;}
-
-
+#right p { color: white; font-size: 13px;}
 #venue .clearfix { margin: 20px 0px;}
 #venue .left, #about .left { margin-right: 42px; margin-bottom:42px;}
 #venue .right { margin-left: 42px; margin-bottom:42px;}
 #content h2 { color:#3c1f0a; font-weight:normal; font-size: 24px; line-height:30px; height:30px; margin: 0px; padding: 0px; margin-bottom:16px;}
 
 #content h4 { color:#3c1f0a; font-weight:normal; font-size: 18px; line-height:20px; height:20px; margin: 0px; padding: 0px; margin-bottom:0px;}
-#about .clearfix { margin-bottom: 40px;}
-#about p { margin: 0px 0px 12px; padding: 0px; font-size:80%;}
-
+em { font-style: normal; color: #ff5200; font-weight: bold;}
 #about ul { list-style:none; font-size:80%;}
 #about ul li { margin-bottom: 6px;}
 
@@ -263,8 +260,9 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #meyer { background: url(/img/trainers/meyer.png) -120px 0px no-repeat;}
 #arnold { background: url(/img/trainers/arnold.png) -120px 0px no-repeat;}
 
-
-
+#fpo { background: transparent url(/img/fpo.png) top left no-repeat ; width: 748px; height: 317px; padding: 7px;}
+#fpo ul { margin: 0px; padding: 0px;}
+#fpo ul li { margin: 0px; padding: 0px; display: block; position: absolute; display:none;}
 
 body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block { height: 200px; width: 200px;  margin:12px 25px; display: block; float: left; text-indent: -200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; opacity: 0.7;}

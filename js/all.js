@@ -393,6 +393,27 @@ $(function () {
 		$("#rtt").remove();
 	}
 
+  if ($("#fpo").length) {
+    var curr = 0;
+    var slides = $("#fpo li");
+    var max = slides.length;
+    var firstRun = false;
+    var spinner = function () {
+      var showing = (curr+1)%max;
+      if (!firstRun) {
+        slides.hide();
+        $(slides[0]).show();
+        firstRun=true;
+      } else {
+        $(slides[curr]).fadeOut();
+        $(slides[showing]).fadeIn();
+        curr = showing;
+      }
+    };
+    spinner();
+    setInterval(spinner, 7000);
+  }
+
 	setTwitter();
 
     var query = "select * from weather.forecast where woeid=23510725";
