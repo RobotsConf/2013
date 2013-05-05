@@ -157,7 +157,7 @@ em { font-style: normal; color: #ff5200; font-weight: bold;}
 #get-me-there { background: #ffe13c; text-decoration: underline; color:#4e4e70; text-decoration:none;  font-weight: 700; padding: 8px; text-align: center; display:block; font-weight: bold; font-size: 20px;}
 .yellow-link a:hover, #get-me-there:hover { background: black; color:white;}
 
-#plantation h3.yellow-link a {  padding: 4px 24px; }
+body h3.yellow-link a {  padding: 4px 24px; }
 a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 12px;background: #ffe13c; text-decoration: none; color:#3c1f0a; padding: 4px;}
 
 
