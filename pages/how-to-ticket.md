@@ -1,0 +1,43 @@
+<%
+this.layout = 'default';
+this.title = 'JSConf US 2013 :: How To Obtain JSConf US 2013 Tickets';
+this.id = 'news';
+%>
+
+
+# JSConf US 2013 Tickets
+
+One of the most exciting and often complained about items of JSConf is the scarcity of tickets and the process of procuring them. This is a natural problem that occurs with each successful year of running JSConf as more people both become interested in JS and aware of JSConf. We have made firm commitments of not sacraficing quality for quantity and to keep ticket prices as low as we possibly can. These two commitments run counter to how some other events are executed and to normal "market economics" which would dictate to increase prices and size to what hte market can bear. More importantly for this discussion, these two commitments can cause a near panic rush when tickets go on sale, which is hardly fun for anyone. 
+
+We are often asked, "Why do you insist on keeping the attendee count so low?" and the answer is because we believe that a smaller, more intimate environment is necessary for the type of event and types of discussions we want to curate. JSConf is not a typical (insert-language-here)-conf in that it doesn't provide beginner/intermediate content, rather it focuses on driving the language and community further by presenting risky, but bleeding edge ideas. Unfortunately, this does not scale to the volume of attendees that other events might facilitate. This isn't an evaluation of other events, just an evaluation of our own competency and ability.
+
+Another question we often get is, "Why aren't tickets (cheaper||free)?" and while we are constantly working to reduce the expenses of the conference, unfortunately conferences occur in the real world, which means it costs real money to create. We could reduce ticket prices to zero by taking only sponsorship funds, but that raises the expectations of what sponsors would receive in exchange and we aren't about to go down that path. The more a ticket costs, the more we, as curators, can stand on the side of the attendee and create the event for them versus for other factors. Part of the curation of JSConf is to create an environment which is prime for social interactions, this means providing accoutrements (espresso, coffee, soft drinks, hot food, etc) that keep attendees happy and engaged at the conference. We also value the time and effort our speakers put into making amazing presentations, so we provide for their travel and lodging while speaking at our event. This is just a decision we have made since the start and it does add to the overall cost of the event. If you want more details on why tickets cost the amount they do, please review our [previous posting on this matter](http://www.voodootikigod.com/hug-a-conference-organizer-the-outcome).
+
+## How does this affect JSConf US 2013?
+We, conference organizers everywhere, are constantly chasing the mythical unicorn that is 'the perfect event'. We spend hours pondering over every last critique and idea in search of this magical nirvana. We, the JSConf US team, are addressing each of our previous critiques one at a time as we ramp up to 2013. The most widely discussed critique was the process for obtaining tickets and the remainder of this post outlines how tickets will be made available for JSConf US 2013. We will be selling two ticket groups in two different methods to create a hybrid of various processes we have seen work well for other events.
+
+### Early Bird ($650)
+A total of 100 Early Bird tickets will be made available starting December 3<sup>rd</sup> at 12:00PM EST at [tickets.jsconf.us](http://tickets.jsconf.us/). Tickets will be sold on a first-come, first-served basis with no refunds offered, but the tickets can be transferred. We are retaining the "rush format" for people that actually enjoy the thrill of purchasing tickets in this manner (and there are quite a few). If you require information about the event for corporate, educational, or other reimbursement, you are repsonsible for requesting and obtaining it prior to the ticket sales open up. We are purposefully providing a significant lead time on ticket sales for this reason. Once the set of early bird tickets are sold out, there are no more.
+
+### Regular Admission ($750)
+A total of 200 Regular Admission tickets will go on sale using a lottery process that will pre-authorize your credit card upon application. Lottery applications will be accepted from December 4<sup>th</sup> at 12:00PM EST until December 14<sup>th</sup> at 12:00PM EST at [tickets.jsconf.us](http://tickets.jsconf.us/). When applying to the lottery you agree that if selected, via a random selection algorithm, you will pay for full price of admission if selected. There are no refunds or cancellations of tickets, but the ticket may be transferred. You do not have to attempt the Early Bird ticket "rush" process to enter into the Regular Admission lottery process. After the lottery application time period has expired, random selections will be made and all tickets will be issued by December 19<sup>th</sup> at 12:00PM EST. All tickets will be distributed by December 25<sup>th</sup> and all sales are final.
+
+## What about my discount?
+If you have attended a JSConf US before you know that we typically hide a discount code somewhere in the source code or provide it as part of a community good will effort. Since this is the 5th Year Reunion of JSConf US, we are offering the Early Bird pricing to all previous year registrants regardless of if you are an Early Bird or Regular admission ticket holder. To obtain this discount, you must provide the email address you registered with for the previous years in the discount field. The discount will be automatically applied if selected. **Please note:** being a previous year attendee does not gaurantee selection in the random lottery. If you forget to provide your email address as the discount code or provide it incorrectly, you will not receive the discount and it cannot be corrected after the fact. This discount only works for a single ticket application, if an email address appears twice in the lottery as an attempted discount, the discount opportunity will be removed from both.
+
+## Conference Attendance Agreements
+By purchasing a JSConf US 2013 ticket, you will be explicitly required to agree with our stated Code of Conduct. You acknowledge that if you or a group you are involved with act in a manner not in accordance with the code of conduct, you will be expelled from the conference with no refund. You agree that you will act with respect for other attendees, organizers, speakers, and staff (both conference and venue) for your entire stay at JSConf US 2013. Finally, you agree that if you see something wrong you will notify a JSConf Staff member to allow them to take swift and appropriate actions. The privacy of individuals reporting issues will be maintained and we deeply appreciate your willingness to come forward about issues. We are here to help.
+
+
+## Transferring a Ticket
+Tickets will not be refunded under any circumstances, but they may be transferred. To transfer the ownership of a JSConf US 2013 ticket, please email [transfer@jsconf.us](mailto:transfer@jsconf.us) with your ticket number and the name and email address of the transferring-to individual. The email address of the transfer request much be from the same address as is listed on the ticket. Tickets may be transferred until May 15th, 2013 due to printing deadlines. We appreciate your understanding in this matter.
+
+
+#### Why Are You Selling Tickets Before Speakers Are Announced And So Early?
+Our conference dates are scheduled shortly after the US Federal holiday of Memorial Day, which historically has higher than normal travel costs. We are trying to allow JSConf attendees the ability to book their travel arrangements significantly in advance so as to take advantage of lower prices. We understand that the cost of a conference isn't just the price of the ticket, but also the hotel, travel, ticket, and other miscellanous items and we are doing our best to allow you the opportunity to make that as cost-effective as possible. We understand that some people might not be comfortable purchasing a ticket to a conference with little to no insight about what will be presented at the event. We encourage you to review our previous 4 events and the wonderful track record they have. If that is not enough to convince you, please to bear in mind that we do offer all of the content for free shortly after the event. We apologize for any inconveince or uncertainty this may cause you, but we are trying to balance the best of all worlds.
+
+
+
+
+
+
