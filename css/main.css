@@ -23,10 +23,10 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 textarea{overflow:auto;vertical-align:top;}
 
 /* ours */
-#content { color: #3c1f0a;}
-body { font-family: 'Open Sans', sans-serif;  font-size: 0.9em; margin: 0px; padding: 0px; background: white;}
+#content { color: white;}
+body { font-family: 'Monda', sans-serif;  font-size: 0.9em; margin: 0px; padding: 0px; background: white;}
 #frame {  background: #4e4e70 url(/img/background.png) top center repeat-x; padding: 0px 0px 40px 0px; margin: 0px;}
-a, a:link, a:visited { color: #277085;}
+a, a:link, a:visited { color: #ff5200;}
 #shell-background { min-height:857px; width:100%; background:url(/img/circuits.jpg) top center no-repeat; }
 #footer { text-align: center; font-size: 10px; margin:0px 0px 200px; color:#333; background: url(/img/footer-fold.png) top left repeat-x; padding-top: 40px;  color:#666666;}
 #footer .nav { margin: 24px 0px;}
@@ -43,7 +43,7 @@ a, a:link, a:visited { color: #277085;}
 #right {  margin-left:228px; width: 756px;}
 #left a.brand { display: block; margin: 0px; padding: 0px; height: 170px;}
 #left hr { display: none;}
-#left ul.nav { list-style: none; margin: 0px; padding: 0px 0px 20px 0px;  font-weight: normal; font-size:16px; font-family: 'Monda', sans-serif;}
+#left ul.nav { list-style: none; margin: 0px; padding: 0px 0px 20px 0px;  font-weight: normal; font-size:16px; }
 #left .nav a { color: #2d2c48; text-decoration: none; display: block; width: 175px; padding: 5px 0px;}
 #left .nav li { padding-left: 36px;  line-height:20px;  text-align: center; padding-left: 11px; margin-bottom: 4px;}
 #left .nav li.active a,#left .nav li a:hover { background-color: #ff5200;}
@@ -60,10 +60,10 @@ a, a:link, a:visited { color: #277085;}
 #social a#facebook:hover { background-position: 0px -52px;}
 
 
-#countdown {  font-weight: bold; margin:10px 0px;  width: 175px;margin-left:12px; text-align:center;}
+#countdown {  font-weight: normal; margin:10px 0px;  width: 175px;margin-left:12px; text-align:center; }
 
-#days { font-size:30px; text-align: center; color:#256f84; width: 175px;}
-#daystep { font-size: 22px; text-align: center; color: #8da9a6;width: 175px;}
+#days { font-size:30px; text-align: center; color:#2d2c48; width: 175px; line-height: 34px;}
+#daystep { font-size: 22px; text-align: center; color: #ff5400;width: 175px; line-height: 20px;}
 #temperature{ font-size:24px; font-weight: bold;}
 #high { color:#ff9c00;}
 #low { color: #797979;}
@@ -109,7 +109,7 @@ h1 {
 	width: 756px;
 	margin-bottom:12px;
 	margin-top: 25px;
-	font-family: 'Monda', helvetica;
+
 	font-weight: 700;
 
 	color:white;
@@ -125,8 +125,8 @@ h1 i {
 #venue h1 i  { background: url(/img/icons.png) 0px -587px no-repeat;}
 /*#about h1 i  { background: url(/img/icons.png) center left no-repeat;}*/
 #speakers h1 i  { background: url(/img/icons.png) center left no-repeat;}
-#trainers h1 i  { background: url(/img/icons.png) center left no-repeat;}
-#sponsors h1 i  { background: url(/img/icons.png) center left no-repeat;}
+#curators h1 i  { background: url(/img/icons.png) 0px 18px no-repeat;}
+#sponsors h1 i  { background: url(/img/icons.png) 0px -48px no-repeat;}
 
 
 .left { float: left;}
@@ -135,9 +135,9 @@ h1 i {
 #venue .clearfix { margin: 20px 0px;}
 #venue .left, #about .left { margin-right: 42px; margin-bottom:42px;}
 #venue .right { margin-left: 42px; margin-bottom:42px;}
-#content h2 { color:#3c1f0a; font-weight:normal; font-size: 24px; line-height:30px; height:30px; margin: 0px; padding: 0px; margin-bottom:16px;}
+#content h2 { color:white; font-weight:normal; font-size: 24px; line-height:30px; height:30px; margin: 0px; padding: 0px; margin-bottom:16px;}
 
-#content h4 { color:#3c1f0a; font-weight:normal; font-size: 18px; line-height:20px; height:20px; margin: 0px; padding: 0px; margin-bottom:0px;}
+#content h4 { color:whit; font-weight:normal; font-size: 18px; line-height:20px; height:20px; margin: 0px; padding: 0px; margin-bottom:0px;}
 em { font-style: normal; color: #ff5200; font-weight: bold;}
 #about ul { list-style:none; font-size:80%;}
 #about ul li { margin-bottom: 6px;}
@@ -153,15 +153,16 @@ em { font-style: normal; color: #ff5200; font-weight: bold;}
 #amelia-island .meat { margin-left:  458px;}
 #amelia-island p { margin-top: 0px;}
 
-.yellow-link a, .yellow-link a:visited, .yellow-link a:link {background: #ffe13c; text-decoration: none; color:#256f84; font-weight:bold;font-family: 'Molle'; font-style: italic; font-weight: 700;}
-#get-me-there { background: #ffe13c; text-decoration: underline; color:#256f84; text-decoration:none; font-family: 'Molle'; font-style: italic; font-weight: 700; padding: 8px; text-align: center; display:block; font-weight: bold; font-size: 20px;}
+.yellow-link a, .yellow-link a:visited, .yellow-link a:link {border-radius:5px; background: #ff5200; text-decoration: none; color:white;font-weight:bold; font-weight: 700; }
+#get-me-there { background: #ffe13c; text-decoration: underline; color:#4e4e70; text-decoration:none;  font-weight: 700; padding: 8px; text-align: center; display:block; font-weight: bold; font-size: 20px;}
 .yellow-link a:hover, #get-me-there:hover { background: black; color:white;}
 
-
+#plantation h3.yellow-link a {  padding: 4px 24px; }
 a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 12px;background: #ffe13c; text-decoration: none; color:#3c1f0a; padding: 4px;}
 
 
-#news h2 { font-weight: bold; margin-top: 24px; margin-bottom: 4px; }
+#news h2 { font-weight: bold; margin-top: 24px; margin-bottom: 4px; color:white; }
+#news h2 a{ color: white;}
 #news p { margin-top: 4px;}
 #news hr { margin: 24px 0px;}
 
@@ -260,7 +261,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #meyer { background: url(/img/trainers/meyer.png) -120px 0px no-repeat;}
 #arnold { background: url(/img/trainers/arnold.png) -120px 0px no-repeat;}
 
-#fpo { background: transparent url(/img/fpo.png) top left no-repeat ; width: 748px; height: 317px; padding: 7px;}
+#fpo, .imagewrap { background: transparent url(/img/fpo.png) top left no-repeat ; width: 748px; height: 317px; padding: 7px;}
 #fpo ul { margin: 0px; padding: 0px;}
 #fpo ul li { margin: 0px; padding: 0px; display: block; position: absolute; display:none;}
 

@@ -1,10 +1,12 @@
-<%
-this.layout = 'default';
-this.title = 'JSConf US 2013 :: The 5th Year Family Reunion :: Amelia Island, Fl';
-%>
+---
+layout: default
+title: "Call For Makers"
+id: speakers
+---
 
 
-# JSConf US 2013 Speaker Selection
+# RobotsConf Call for Makers
+
 As part of our on-going [reinvention of JSConf](http://www.voodootikigod.com/a-jsconf-reflection), we are going to break our [single, most sacred rule](http://www.voodootikigod.com/how-i-pick-speakers-for-jsconf), if you have spoken at a JSConf, it is nearly impossible to speak again at a JSConf. Over the past four years of JSConf events, we have spotlighted individuals that would otherwise never get a stage. We have given a platform for risky, crazy, and amazing things to flourish into even bigger, more widely-known products, ideas, and libraries. Many of the brightest things in JS over the last five years have their roots deeply engrained with JSConf and this is something we take incredible pride in. We push ourselves each year to take riskier and riskier speakers because they define the discussion about JS over the next year or years. Unlike other events, attendees do not come to JSConf to learn JS, they come to have their minds blown about what they had never conceived JS could accomplish. If you would like some examples of technologies and ideas first presented at JSConf, here are just a handful:
 
 * PhoneGap
