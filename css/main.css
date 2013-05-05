@@ -26,6 +26,8 @@ textarea{overflow:auto;vertical-align:top;}
 #content { color: white;}
 body { font-family: 'Monda', sans-serif;  font-size: 0.9em; margin: 0px; padding: 0px; background: white;}
 #frame {  background: #4e4e70 url(/img/background.png) top center repeat-x; padding: 0px 0px 40px 0px; margin: 0px;}
+
+#event-date {color:white;color: white;background: #ff5200;margin-left: 7px;margin-right: 37px;padding-bottom: 5px;text-align: center; font-weight: bold; font-size: 18px;}
 a, a:link, a:visited { color: #ff5200;}
 #shell-background { min-height:857px; width:100%; background:url(/img/circuits.jpg) top center no-repeat; }
 #footer { text-align: center; font-size: 10px; margin:0px 0px 200px; color:#333; background: url(/img/footer-fold.png) top left repeat-x; padding-top: 40px;  color:#666666;}
