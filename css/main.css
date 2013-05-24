@@ -74,7 +74,7 @@ a, a:link, a:visited { color: #ff5200;}
 #location span { display: none;}
 #weather { height: 132px;}
 /*-174*/
-#regnow { display:block; float: right; height:84px; width:252px; background: url(/img/reg.png) 0px -87px no-repeat; text-indent: -999px; overflow:hidden; margin-left: 19px;}
+#regnow { display:block; float: right; height:84px; width:252px; background: url(/img/reg.png) 0px 0px no-repeat; text-indent: -999px; overflow:hidden; margin-left: 19px;}
 #twitter-pull { padding-top: 14px; height:84px;}
 
 
