@@ -46,9 +46,3 @@ Tickets will not be refunded under any circumstances, but they may be transferre
 We are trying to allow RobotsConf attendees the ability to book their travel arrangements significantly in advance so as to take advantage of lower prices. We understand that the cost of a conference isn't just the price of the ticket, but also the hotel, travel, ticket, and other miscellanous items and we are doing our best to allow you the opportunity to make that as cost-effective as possible. 
 
 We understand that some people might not be comfortable purchasing a ticket to a conference with little to no insight about what will be presented at the event, but at the same time due to the nature of our event all the things should be first time seeing/doing anyway. We encourage you to review our (incredible track record of events)[http://jsconf.com] and use them in your purchasing decision as this event will be even bigger and better than those. If that is not enough to convince you, please do bear in mind that we do offer all of the content for free shortly after the event. We apologize for any inconveince or uncertainty this may cause you, but we are trying to balance the best of all worlds.
-
-
-
-
-
-
