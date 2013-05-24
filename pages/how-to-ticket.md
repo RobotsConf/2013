@@ -39,7 +39,7 @@ By purchasing a RobotsConf 2013 ticket, you agree with our stated Code of Conduc
 
 
 ## Transferring a Ticket
-Tickets will not be refunded under any circumstances, but they may be transferred. To transfer the ownership of a RobotsConf 2013 ticket, please see (this page)[/transfer] that describes the necessary steps. If you are trying to find a ticket, please check our [RobotsConf community on Google Plus](https://plus.google.com/communities/111003789351003878107).
+Tickets will not be refunded under any circumstances, but they may be transferred. To transfer the ownership of a RobotsConf 2013 ticket, please see (this page)[/pages/transfer.html] that describes the necessary steps. If you are trying to find a ticket, please check our [RobotsConf community on Google Plus](https://plus.google.com/communities/111003789351003878107).
 
 
 #### Why Are You Selling Tickets Before Speakers Are Announced And So Early?
