@@ -265,7 +265,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     });
   };
 }));
-var TRIGGER = 1376884800000; // set to August 19th to include opening events
+var TRIGGER = 1386306000000; // set to August 19th to include opening events
 var SECOND = 1000;
 var MINUTE = 60000;
 var HOUR = 3600000;
@@ -278,8 +278,8 @@ function arrayRandom(){ return (Math.round(Math.random())-0.5); }
 function setTime() {
 	var now = +(new Date());
 	if (now >= TRIGGER) {
-		$("#days").html("JSCONF");
-		$("#daystep").html("FUCK YEA");
+		$("#days").html("ROBOTSCONF");
+		$("#daystep").html("DOMINATED");
 		if (updateTimer)
 			clearInterval(updateTimer);
 		return false;

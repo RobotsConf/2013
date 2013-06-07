@@ -2,7 +2,7 @@ RobotsConf
 ==========
 
 
-Join us for the world's first RobotsConf - August 19 - 20, 2013 at Amelia Island, FL
+Join us for the world's first RobotsConf - December 6 and 7, 2013 at Amelia Island, FL
 
 RobotsConf will be the first ever Software Developer's Hardware Conference!
 
