@@ -294,4 +294,12 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block#olark { background-image: url(/img/sponsors/olark.png);}
 
 .sponsor-block#mozilla { background-image: url(/img/sponsors/mozilla.png);}
+#right .well p { color: black; margin: 0px; padding: 0px; }
+.well {
+    background: white;
+    padding: 20px;
+    color: black;
+    margin-bottom: 1em;
+}
+
 
