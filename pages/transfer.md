@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  'How To Transfer Tickets'
-id: news
+id: transfer
 ---
 
 

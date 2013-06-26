@@ -23,7 +23,8 @@
   <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" media="screen" href="/css/main.css" >
-  <script src='/js/all.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src='/js/robotsconf.js'></script>
 </head>
 <!---
      ..............
@@ -162,7 +163,7 @@
   ga('create', 'UA-1264213-25', 'robotsconf.com');
   ga('send', 'pageview');
 
-  $(function () { activateMenu('<%= this.id %>'); });
+  $(function () { activateMenu('{{ page.id || "index" }}'); });
 </script>
 </body>
 </html>
