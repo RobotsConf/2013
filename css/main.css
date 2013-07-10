@@ -236,10 +236,10 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 
 .speaker .name, .sponsor .name  { font-size: 24px; font-weight: bold; line-height:36px; vertical-align: middle; margin-bottom: 12px;}
 .speaker .name a.twitter { font-size: 16px; background: url(/img/bird.png) center left no-repeat; text-decoration: none; padding-left: 30px; margin-left: 30px; font-weight: normal; vertical-align: middle; margin-top:-4px;}
-#fabbro { background: url(/img/speakers/fabbro.png) -120px 0px no-repeat;}
-#murphey { background: url(/img/speakers/murphey.png) -120px 0px no-repeat;}
-#croll { background: url(/img/speakers/croll.png) -120px 0px no-repeat;}
-#sharp { background: url(/img/speakers/sharp.png) -120px 0px no-repeat;}
+#swift { background: url(/img/speakers/swift.png) -120px 0px no-repeat;}
+#evans { background: url(/img/speakers/evans.png) -120px 0px no-repeat;}
+#waldron { background: url(/img/speakers/waldron.png) -120px 0px no-repeat;}
+#williams { background: url(/img/speakers/williams.png) -120px 0px no-repeat;}
 #velez { background: url(/img/speakers/velez.png) -120px 0px no-repeat;}
 #det { background: url(/img/speakers/det.png) -120px 0px no-repeat;}
 #dupont { background: url(/img/speakers/dupont.png) -120px 0px no-repeat;}
