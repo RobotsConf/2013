@@ -127,6 +127,13 @@ h1 i {
 #venue h1 i  { background: url(/img/icons.png) 0px -587px no-repeat;}
 /*#about h1 i  { background: url(/img/icons.png) center left no-repeat;}*/
 #speakers h1 i  { background: url(/img/icons.png) center left no-repeat;}
+
+
+#speakers h1  { margin-top: 120px; margin-bottom: 40px;}
+#speakers h1#keynotes { margin-top: 0px; }
+#speakers h1#keynotes i { background: url(/img/icons.png) 0px -116px no-repeat;}
+#speakers h1#experts i { background: url(/img/icons.png) 0px -51px no-repeat;}
+#speakers h1#guides i { background: url(/img/icons.png) 0px -186px no-repeat;}
 #curators h1 i  { background: url(/img/icons.png) 0px 18px no-repeat;}
 #sponsors h1 i  { background: url(/img/icons.png) 0px -48px no-repeat;}
 
@@ -241,7 +248,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #waldron { background: url(/img/speakers/waldron.png) -120px 0px no-repeat;}
 #williams { background: url(/img/speakers/williams.png) -120px 0px no-repeat;}
 #velez { background: url(/img/speakers/velez.png) -120px 0px no-repeat;}
-#det { background: url(/img/speakers/det.png) -120px 0px no-repeat;}
+#whurley { background: url(/img/speakers/whurley.png) -120px 0px no-repeat;}
 #dupont { background: url(/img/speakers/dupont.png) -120px 0px no-repeat;}
 #higgins { background: url(/img/speakers/higgins.png) -120px 0px no-repeat;}
 #farrell { background: url(/img/speakers/farrell.png) -120px 0px no-repeat;}
