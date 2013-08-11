@@ -33,7 +33,7 @@ Here are the topics we are seeking for submissions, please select just one of th
 * Interaction Interfaces (Makey-Makey, Kinect, LeapMotion)
 * Fashion
 
-To answer this call for Speakers and Workshoppers, please register using the button below. The submission form will remain open until Wednesday, July 31st, 2013 at 12:00PM EST. Individuals selected will be notified shortly after that. We welcome strange and unusual presentations as long as they remain within the boundaries of our well established [Code of Conduct](/codeofconduct.html), please review this code prior to submitting your talk. If you have any issues, concerns, or questions please email <a href="mailto:chris@robotsconf.com">chris@robotsconf.com</a>.
+To answer this call for Speakers and Workshoppers, please register using the button below. The submission form will remain open until Wednesday, August 30<sup>th</sup>, 2013 at 12:00PM EST. Individuals selected will be notified shortly after that. We welcome strange and unusual presentations as long as they remain within the boundaries of our well established [Code of Conduct](/codeofconduct.html), please review this code prior to submitting your talk. If you have any issues, concerns, or questions please email <a href="mailto:chris@robotsconf.com">chris@robotsconf.com</a>.
 <center>
       <h3 class='yellow-link'><a href="https://docs.google.com/forms/d/18DbPAAVAXlXFtKz6gWwZf8u2nHwzKH8kVuP8q1PGdQc/viewform">Submit Your Talk/Workshop Now!</a></h3>
       </center>
