@@ -260,7 +260,9 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #sullivan { background: url(/img/speakers/sullivan.png) -120px 0px no-repeat;}
 #schmidt { background: url(/img/speakers/schmidt.png) -120px 0px no-repeat;}
 #wittens { background: url(/img/speakers/wittens.png) -120px 0px no-repeat;}
-
+#wallace {background: url(/img/speakers/wallace.png) -120px 0px no-repeat;}
+#jtodd {background: url(/img/speakers/james.png) -120px 0px no-repeat;}
+#stodd {background: url(/img/speakers/sylvia.png) -120px 0px no-repeat;}
 
 #job { background: url(/img/trainers/job.png) -120px 0px no-repeat;}
 #means { background: url(/img/trainers/means.png) -120px 0px no-repeat;}
@@ -279,7 +281,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block:hover { opacity: 1.0;}
 .sponsor-block#bitovi { background-image: url(/img/sponsors/bitovi.png);}
 .sponsor-block#bloomberg { background-image: url(/img/sponsors/bloomberg.png);}
-.sponsor-block#yammer { background-image: url(/img/sponsors/yammer.png);}
+.sponsor-block#sparkdevices { background-image: url(/img/sponsors/sparkdevices.png);}
 .sponsor-block#nodejitsu { background-image: url(/img/sponsors/nodejitsu.png);}
 .sponsor-block#twilio { background-image: url(/img/sponsors/twilio.png);}
 .sponsor-block#springsource { background-image: url(/img/sponsors/springsource.png);}
