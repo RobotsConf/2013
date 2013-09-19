@@ -332,7 +332,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block#nokia { background-image: url(/img/sponsors/nokia.png);}
 
 .sponsor-block#github { background-image: url(/img/sponsors/github.png);}
-.sponsor-block#rga { background-image: url(/img/sponsors/rga.png);}
+.sponsor-block#saucelabs { background-image: url(/img/sponsors/sauce.png);}
 .sponsor-block#yahoo { background-image: url(/img/sponsors/yahoo.png);}
 .sponsor-block#google { background-image: url(/img/sponsors/google.png);}
 .sponsor-block#olark { background-image: url(/img/sponsors/olark.png);}
@@ -347,3 +347,16 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 }
 
 
+@media screen and (max-width: 1200px) and (min-width: 767px) {
+  .navbar-brand img {
+    width: 125px;
+  }
+  .navbar-brand {
+  	width: 125px;
+  }
+  .nav>li>a{ 
+  	font-size: 90%; padding: 6px;}
+}
+
+
+media
