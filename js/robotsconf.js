@@ -91,7 +91,7 @@ function scrollTo(_target) {
 function activateMenu(key) {
 
 	$(".nav .active").removeClass("active");
-	$(".nav ."+key).addClass("active");
+	$("#"+key).addClass("active");
 }
 
 function setTwitter() {
