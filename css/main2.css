@@ -1,0 +1,23 @@
+
+.navbar-nav>li>a {
+    line-height: 46px;
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{ font-family: 'Monda', sans-serif; }
+.carousel {
+    margin-bottom: 60px;
+    margin-top: -118px;
+}
+
+.carousel-caption {
+z-index: 10;
+    padding-top: 0px;
+background: rgba(0,0,0,0.5);
+}
+
+footer { text-align: center; font-size: 90%; border-top: 1px solid #eee; margin: 80px 0px; padding-top: 80px}
