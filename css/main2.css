@@ -345,9 +345,9 @@ body .speaker.hover {background-position: 15px -136px !important;  }
     color: black;
     margin-bottom: 1em;
 }
+.navbar-inverse .navbar-nav>li.inactive>a, .navbar-inverse .navbar-nav>li.inactive>a:hover { color: #ff5200;}
 
-
-@media screen and (max-width: 1200px) and (min-width: 767px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
   .navbar-brand img {
     width: 125px;
   }
@@ -355,8 +355,19 @@ body .speaker.hover {background-position: 15px -136px !important;  }
   	width: 125px;
   }
   .nav>li>a{ 
-  	font-size: 90%; padding: 6px;}
+  	font-size: 85%; padding: 8px;
+  	line-height:37px;
+  }
+  h1 {
+  	font-size: 24px;
+  	letter-spacing: 2px;
+  }
+  .carousel-caption p {
+	font-size: 16px;
+  }
 }
-
-
-media
+@media screen and (max-width: 991px) and (min-width: 767px) {
+ 	.nav>li>a{ 
+	  	/*font-size: 85%; padding: 3px;}*/
+	}
+}
