@@ -279,6 +279,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 .speaker .name, .sponsor .name  { font-size: 24px; font-weight: bold; line-height:36px; vertical-align: middle; margin-bottom: 12px;}
 .speaker .name a.twitter { font-size: 16px; background: url(/img/bird.png) center left no-repeat; text-decoration: none; padding-left: 30px; margin-left: 30px; font-weight: normal; vertical-align: middle; margin-top:-4px;}
 #swift { background: url(/img/speakers/swift.png) -120px 0px no-repeat;}
+#hoyt { background: url(/img/speakers/hoyt.png) -120px 0px no-repeat;}
 #evans { background: url(/img/speakers/evans.png) -120px 0px no-repeat;}
 #waldron { background: url(/img/speakers/waldron.png) -120px 0px no-repeat;}
 #williams { background: url(/img/speakers/williams.png) -120px 0px no-repeat;}
