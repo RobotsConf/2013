@@ -285,23 +285,23 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #williams { background: url(/img/speakers/williams.png) -120px 0px no-repeat;}
 #velez { background: url(/img/speakers/velez.png) -120px 0px no-repeat;}
 #whurley { background: url(/img/speakers/whurley.png) -120px 0px no-repeat;}
-#dupont { background: url(/img/speakers/dupont.png) -120px 0px no-repeat;}
+#rizzitano { background: url(/img/speakers/rizzitano.png) -120px 0px no-repeat;}
 #szymczykowski { background: url(/img/speakers/szymczykowski.png) -120px 0px no-repeat;}
-#farrell { background: url(/img/speakers/farrell.png) -120px 0px no-repeat;}
+#chipps { background: url(/img/speakers/chipps.png) -120px 0px no-repeat;}
 #beri { background: url(/img/speakers/beri.png) -120px 0px no-repeat;}
 #lee { background: url(/img/speakers/lee.png) -120px 0px no-repeat;}
-#yayquery { background: url(/img/speakers/yayquery.png) -120px 0px no-repeat;}
+#virdee { background: url(/img/speakers/virdeeq.png) -120px 0px no-repeat;}
 #saale { background: url(/img/speakers/saale.png) -120px 0px no-repeat;}
 #daly { background: url(/img/speakers/daly.png) -120px 0px no-repeat;}
 #gottfried { background: url(/img/speakers/gottfried.png) -120px 0px no-repeat;}
-#schmidt { background: url(/img/speakers/schmidt.png) -120px 0px no-repeat;}
-#wittens { background: url(/img/speakers/wittens.png) -120px 0px no-repeat;}
 #wallace {background: url(/img/speakers/wallace.png) -120px 0px no-repeat;}
 #jtodd {background: url(/img/speakers/james.png) -120px 0px no-repeat;}
 #stodd {background: url(/img/speakers/sylvia.png) -120px 0px no-repeat;}
+#continanza { background: url(/img/speakers/continanza.png) -120px 0px no-repeat;}
+#hinton { background: url(/img/speakers/hinton.png) -120px 0px no-repeat;}
+#schmidt { background: url(/img/speakers/schmidt.png) -120px 0px no-repeat;}
 
-#job { background: url(/img/trainers/job.png) -120px 0px no-repeat;}
-#means { background: url(/img/trainers/means.png) -120px 0px no-repeat;}
+
 #phillips { background: url(/img/trainers/phillips.png) -120px 0px no-repeat;}
 #christian { background: url(/img/trainers/christian.png) -120px 0px no-repeat;}
 #fox { background: url(/img/trainers/fox.png) -120px 0px no-repeat;}
@@ -355,7 +355,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
   .navbar-brand {
   	width: 125px;
   }
-  .nav>li>a{ 
+  .nav>li>a{
   	font-size: 85%; padding: 8px;
   	line-height:37px;
   }
@@ -368,7 +368,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
   }
 }
 @media screen and (max-width: 991px) and (min-width: 767px) {
- 	.nav>li>a{ 
+ 	.nav>li>a{
 	  	/*font-size: 85%; padding: 3px;}*/
 	}
 }
