@@ -265,7 +265,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #weather { background-position: center center; background-repeat: no-repeat}
 
 
-
+#speakers h2 { margin-bottom: .75em;}
 
 .speaker, .sponsor {padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid #246f84;}
 .speaker.last { border-bottom: 0px;}
@@ -290,9 +290,9 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #chipps { background: url(/img/speakers/chipps.png) -120px 0px no-repeat;}
 #beri { background: url(/img/speakers/beri.png) -120px 0px no-repeat;}
 #lee { background: url(/img/speakers/lee.png) -120px 0px no-repeat;}
-#virdee { background: url(/img/speakers/virdeeq.png) -120px 0px no-repeat;}
+#virdee { background: url(/img/speakers/virdee.png) -120px 0px no-repeat;}
 #saale { background: url(/img/speakers/saale.png) -120px 0px no-repeat;}
-#daly { background: url(/img/speakers/daly.png) -120px 0px no-repeat;}
+#fabbro { background: url(/img/speakers/fabbro.png) -120px 0px no-repeat;}
 #gottfried { background: url(/img/speakers/gottfried.png) -120px 0px no-repeat;}
 #wallace {background: url(/img/speakers/wallace.png) -120px 0px no-repeat;}
 #jtodd {background: url(/img/speakers/james.png) -120px 0px no-repeat;}
