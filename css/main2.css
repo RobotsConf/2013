@@ -315,7 +315,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block { height: 200px; width: 200px;  margin:12px 25px; display: block; float: left; text-indent: -200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; opacity: 0.7;}
 .sponsor-block:hover { opacity: 1.0;}
-.sponsor-block#bitovi { background-image: url(/img/sponsors/bitovi.png);}
+
 .sponsor-block#bloomberg { background-image: url(/img/sponsors/bloomberg.png);}
 .sponsor-block#sparkdevices { background-image: url(/img/sponsors/sparkdevices.png);}
 .sponsor-block#nodejitsu { background-image: url(/img/sponsors/nodejitsu.png);}
@@ -335,8 +335,9 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block#github { background-image: url(/img/sponsors/github.png);}
 .sponsor-block#saucelabs { background-image: url(/img/sponsors/sauce.png);}
 .sponsor-block#yahoo { background-image: url(/img/sponsors/yahoo.png);}
-.sponsor-block#google { background-image: url(/img/sponsors/google.png);}
-.sponsor-block#olark { background-image: url(/img/sponsors/olark.png);}
+.sponsor-block#embedly { background-image: url(/img/sponsors/embedly.png);}
+.sponsor-block#heroku { background-image: url(/img/sponsors/heroku.png);}
+.sponsor-block#rackspace { background-image: url(/img/sponsors/rackspace.png);}
 
 .sponsor-block#mozilla { background-image: url(/img/sponsors/mozilla.png);}
 #right .well p { color: black; margin: 0px; padding: 0px; }
