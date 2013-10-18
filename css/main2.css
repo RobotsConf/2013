@@ -313,7 +313,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #fpo ul li { margin: 0px; padding: 0px; display: block; position: absolute; display:none;}
 
 body .speaker.hover {background-position: 15px -136px !important;  }
-.sponsor-block { height: 200px; width: 200px;  margin:12px 25px; display: block; float: left; text-indent: -200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; opacity: 0.7;}
+.sponsor-block { height: 200px; width: 200px;  margin:12px 46px; display: block; float: left; text-indent: -2000px; overflow: hidden; background-position: center center; background-repeat: no-repeat; opacity: 0.7;}
 .sponsor-block:hover { opacity: 1.0;}
 
 .sponsor-block#bloomberg { background-image: url(/img/sponsors/bloomberg.png);}
