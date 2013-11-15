@@ -303,6 +303,7 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #hinton { background: url(/img/speakers/hinton.png) -120px 0px no-repeat;}
 #huggins { background: url(/img/speakers/huggins.png) -120px 0px no-repeat;}
 #rose { background: url(/img/speakers/rose.png) -120px 0px no-repeat;}
+#lau { background: url(/img/speakers/lau.png) -120px 0px no-repeat;}
 
 
 #phillips { background: url(/img/trainers/phillips.png) -120px 0px no-repeat;}
@@ -334,6 +335,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block#bugbuster { background-image: url(/img/sponsors/bugbuster.png);}
 .sponsor-block#appneta { background-image: url(/img/sponsors/appneta.png);}
 .sponsor-block#hybridgroup { background-image: url(/img/sponsors/hybridgroup.png);}
+.sponsor-block#deltamaker { background-image: url(/img/sponsors/deltamaker.png);}
 .sponsor-block#leapmotion { background-image: url(/img/sponsors/leapmotion.png);}
 
 .sponsor-block#github { background-image: url(/img/sponsors/github.png);}
