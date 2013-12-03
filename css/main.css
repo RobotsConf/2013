@@ -301,7 +301,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block#yahoo { background-image: url(/img/sponsors/yahoo.png);}
 .sponsor-block#google { background-image: url(/img/sponsors/google.png);}
 .sponsor-block#olark { background-image: url(/img/sponsors/olark.png);}
-
+.sponsor-block#make { background-image: url(/img/sponsors/make.png);}
 .sponsor-block#mozilla { background-image: url(/img/sponsors/mozilla.png);}
 #right .well p { color: black; margin: 0px; padding: 0px; }
 .well {
