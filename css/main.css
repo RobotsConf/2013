@@ -26,6 +26,8 @@ textarea{overflow:auto;vertical-align:top;}
 #content { color: white;}
 body { font-family: 'Monda', sans-serif;  font-size: 0.9em; margin: 0px; padding: 0px; background: white;}
 #frame {  background: #4e4e70 url(/img/background.png) top center repeat-x; padding: 0px 0px 40px 0px; margin: 0px;}
+
+#event-date {color:white;color: white;background: #ff5200;margin-left: 7px;margin-right: 37px;padding-bottom: 5px;text-align: center; font-weight: bold; font-size: 18px;}
 a, a:link, a:visited { color: #ff5200;}
 #shell-background { min-height:857px; width:100%; background:url(/img/circuits.jpg) top center no-repeat; }
 #footer { text-align: center; font-size: 10px; margin:0px 0px 200px; color:#333; background: url(/img/footer-fold.png) top left repeat-x; padding-top: 40px;  color:#666666;}
@@ -72,7 +74,7 @@ a, a:link, a:visited { color: #ff5200;}
 #location span { display: none;}
 #weather { height: 132px;}
 /*-174*/
-#regnow { display:block; float: right; height:84px; width:252px; background: url(/img/reg.png) 0px -87px no-repeat; text-indent: -999px; overflow:hidden; margin-left: 19px;}
+#regnow { display:block; float: right; height:84px; width:252px; background: url(/img/reg.png) 0px 0px no-repeat; text-indent: -999px; overflow:hidden; margin-left: 19px;}
 #twitter-pull { padding-top: 14px; height:84px;}
 
 
@@ -125,6 +127,13 @@ h1 i {
 #venue h1 i  { background: url(/img/icons.png) 0px -587px no-repeat;}
 /*#about h1 i  { background: url(/img/icons.png) center left no-repeat;}*/
 #speakers h1 i  { background: url(/img/icons.png) center left no-repeat;}
+
+
+#speakers h1  { margin-top: 120px; margin-bottom: 40px;}
+#speakers h1#keynotes { margin-top: 0px; }
+#speakers h1#keynotes i { background: url(/img/icons.png) 0px -116px no-repeat;}
+#speakers h1#experts i { background: url(/img/icons.png) 0px -51px no-repeat;}
+#speakers h1#guides i { background: url(/img/icons.png) 0px -186px no-repeat;}
 #curators h1 i  { background: url(/img/icons.png) 0px 18px no-repeat;}
 #sponsors h1 i  { background: url(/img/icons.png) 0px -48px no-repeat;}
 
@@ -234,12 +243,12 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 
 .speaker .name, .sponsor .name  { font-size: 24px; font-weight: bold; line-height:36px; vertical-align: middle; margin-bottom: 12px;}
 .speaker .name a.twitter { font-size: 16px; background: url(/img/bird.png) center left no-repeat; text-decoration: none; padding-left: 30px; margin-left: 30px; font-weight: normal; vertical-align: middle; margin-top:-4px;}
-#fabbro { background: url(/img/speakers/fabbro.png) -120px 0px no-repeat;}
-#murphey { background: url(/img/speakers/murphey.png) -120px 0px no-repeat;}
-#croll { background: url(/img/speakers/croll.png) -120px 0px no-repeat;}
-#sharp { background: url(/img/speakers/sharp.png) -120px 0px no-repeat;}
+#swift { background: url(/img/speakers/swift.png) -120px 0px no-repeat;}
+#evans { background: url(/img/speakers/evans.png) -120px 0px no-repeat;}
+#waldron { background: url(/img/speakers/waldron.png) -120px 0px no-repeat;}
+#williams { background: url(/img/speakers/williams.png) -120px 0px no-repeat;}
 #velez { background: url(/img/speakers/velez.png) -120px 0px no-repeat;}
-#det { background: url(/img/speakers/det.png) -120px 0px no-repeat;}
+#whurley { background: url(/img/speakers/whurley.png) -120px 0px no-repeat;}
 #dupont { background: url(/img/speakers/dupont.png) -120px 0px no-repeat;}
 #higgins { background: url(/img/speakers/higgins.png) -120px 0px no-repeat;}
 #farrell { background: url(/img/speakers/farrell.png) -120px 0px no-repeat;}
@@ -248,16 +257,18 @@ a#rtt { position: fixed; bottom: 12px; right: 12px; display: block; font-size: 1
 #yayquery { background: url(/img/speakers/yayquery.png) -120px 0px no-repeat;}
 #eich { background: url(/img/speakers/eich.png) -120px 0px no-repeat;}
 #daly { background: url(/img/speakers/daly.png) -120px 0px no-repeat;}
-#sullivan { background: url(/img/speakers/sullivan.png) -120px 0px no-repeat;}
+#chipps { background: url(/img/speakers/chipps.png) -120px 0px no-repeat;}
 #schmidt { background: url(/img/speakers/schmidt.png) -120px 0px no-repeat;}
 #wittens { background: url(/img/speakers/wittens.png) -120px 0px no-repeat;}
-
+#wallace {background: url(/img/speakers/wallace.png) -120px 0px no-repeat;}
+#jtodd {background: url(/img/speakers/james.png) -120px 0px no-repeat;}
+#stodd {background: url(/img/speakers/sylvia.png) -120px 0px no-repeat;}
 
 #job { background: url(/img/trainers/job.png) -120px 0px no-repeat;}
 #means { background: url(/img/trainers/means.png) -120px 0px no-repeat;}
 #phillips { background: url(/img/trainers/phillips.png) -120px 0px no-repeat;}
-#christian { background: url(/img/trainers/christian.png) -120px 0px no-repeat;}
-#fox { background: url(/img/trainers/fox.png) -120px 0px no-repeat;}
+#hinton { background: url(/img/trainers/hinton.png) -120px 0px no-repeat;}
+#rizzitano { background: url(/img/trainers/rizzitano.png) -120px 0px no-repeat;}
 #meyer { background: url(/img/trainers/meyer.png) -120px 0px no-repeat;}
 #arnold { background: url(/img/trainers/arnold.png) -120px 0px no-repeat;}
 
@@ -270,7 +281,7 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block:hover { opacity: 1.0;}
 .sponsor-block#bitovi { background-image: url(/img/sponsors/bitovi.png);}
 .sponsor-block#bloomberg { background-image: url(/img/sponsors/bloomberg.png);}
-.sponsor-block#yammer { background-image: url(/img/sponsors/yammer.png);}
+.sponsor-block#sparkdevices { background-image: url(/img/sponsors/sparkdevices.png);}
 .sponsor-block#nodejitsu { background-image: url(/img/sponsors/nodejitsu.png);}
 .sponsor-block#twilio { background-image: url(/img/sponsors/twilio.png);}
 .sponsor-block#springsource { background-image: url(/img/sponsors/springsource.png);}
@@ -290,6 +301,14 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 .sponsor-block#yahoo { background-image: url(/img/sponsors/yahoo.png);}
 .sponsor-block#google { background-image: url(/img/sponsors/google.png);}
 .sponsor-block#olark { background-image: url(/img/sponsors/olark.png);}
-
+.sponsor-block#make { background-image: url(/img/sponsors/make.png);}
 .sponsor-block#mozilla { background-image: url(/img/sponsors/mozilla.png);}
+#right .well p { color: black; margin: 0px; padding: 0px; }
+.well {
+    background: white;
+    padding: 20px;
+    color: black;
+    margin-bottom: 1em;
+}
+
 

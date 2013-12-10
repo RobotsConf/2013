@@ -1,313 +1,382 @@
-<%
-this.layout = 'default';
-this.title = 'JSConf US 2013 Speakers';
-this.id = 'speakers';
-%>
+---
+layout: default
+title: "RobotsConf Speakers and Workshop Guides"
+id: speakers
+---
+<div class="container">
 
 <div id='speakers'>
-	<h1><i>Speakers</i></h1>
+	<div class="row featurette">
+      <h2 id='keynote' class="featurette-heading mtop">Keynote Speakers</h2>
 
-
-	<div class='speaker' id='croll'>
-		<div class='name'>Angus Croll <a href='http://twitter.com/angustweets' class='twitter'>@angustweets</a></div>
+    <div class='speaker' id='whurley'>
+		<div class='name'>Whurley <a href='http://twitter.com/whurley' class='twitter'>@whurley</a></div>
 		<div class='talk'>
-			<div class='title'>JavaScript is Literature is JavaScript</div>
-<p>Anyone who thinks Brendan Eich invented JavaScript has probably never read Oscar Wilde. “The truth is rarely pure and never simple” says Algernon in Wilde's Importance of Being Earnest, thus betraying a wary familairity with our favorite language. It turns out JavaScript's highly expressive nature and the infinite posibilities of its syntax made it a favored medium for our literary forebears.</p>
-<p>Last summer I introduced the concept of Literary JavaScript with <a href="http://byfat.xxx/if-hemingway-wrote-javascript">If Hemingway wrote JavaScript</a>, wherein five famous writers demonstrated their JavaScript smarts. That article generated very positive reactions from both the JavaScript and Literary communities (including write-ups in the New Yorker, Huffington Post and Wired Magazine) and this talk will build on those themes, drawing parallels between the myriad stylistic facets of JavaScript and the kaleidescope of literary genres. There is a serious aspect - I hope to demonstrate that JavaScript's loose structure and lack of boilerplate encourages creativity and is something to celebrate rather than something to WTF about.</p>
-<p>Oh, and as an added bonus I'll be unveiling an additional set of recently re-discovered works of literary JavaScript genius.</p>
+            <div class='title'><a href="http://whurley.com/">Killer of Futurists</a></div>
 		</div>
 		<div class='bio'>
-			<div class='title'>Meet Angus</div>
-			<p>Angus is a displaced Brit with an obsession for JavaScript and Literature in equal measure. He works for Twitter's web core team and is the author of the <a href="https://javascriptweblog.wordpress.com">JavaScript, JavaScript</a> blog. Angus isalso writing a JavaScript book due out this year on No Starch Press.</p>
+			<div class='title'>Meet Whurley</div>
+	<p>He's been called a visionary systems theorist, a mad scientist, and an evil genius (International Genius).  What he is, is innovative.  Over his 20-year career, whurley has demonstrated a talent for innovation and a passion for open source software.  In 2010 he co-founded Chaotic Moon, a leading mobile development and strategy company, and quickly built a portfolio of A-list clients.  Names like Microsoft, CBS Sports, Sanrio, Pizza Hutt, and News Corp, for whom Chaotic Moon developed the first iPad-only digital newspaper. </p>
+	<p>In 2011 he could have stood put.  Instead he doubled down, helping launch Chaotic Moon Labs to focus on "innovation on demand." As General Manager of the lab in 2012, he created what Wired Magazine described as "the best of CES," an all-terrain skateboard controlled by hand motions.  Powered by an Xbox Kinect&trade; and a Samsung tablet, the board achieved an exhilarating top speed of 32 mph. For dessert, he built a mind-controlled version that Jason Bradbury, host of the Europe's The Gadget Show, said was "...like something out of a science fiction movie" and "comic book crazy." </p>
+	<p>He then created a rapid prototype of the shopping cart of the future. The Smarter Cart™ not only guided customers to items at Whole Foods' flagship store, it also scanned their food to help manage their dietary needs, notify them of FDA food recalls, and accelerate their check-out.</p>
+	<p>Today whurley keeps the world's top brands decades ahead of the curve, predicting not only the next iteration, but delivering on the demands of the next generation.</p>
 		</div>
-
-	</div>
-	
-	<div class='speaker' id='daly'>
-		<div class='name'>Ray Daly <a href='http://twitter.com/raydaly' class='twitter'>@raydaly</a></div>
-		<div class='talk'>
-			<div class='title'>JavaScript Journalism</div>
-			<p>It is time that news stories told with JavaScript get recognized as a form of journalism. It took years for photo journalism to get the recognition it deserves, now it the time to recognize JS Journalism.</p>
-			<p>Most news organizations presented election news using JavaScript. News home pages often have more JS than text.</p>
-			<p>A bit of history. A bit of academia. A bit of current news. A few guesses about the future. But nothing about the future of newspapers.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Ray</div>
-			<p>Ray (@raydaly) released his first JavaScript program, HTMLjive (<a href="http://www.raydaly.com/#htmlJivePg">http://www.raydaly.com/#htmlJivePg</a>), in January 1996. That summer he gave his first JS talk: "JavaScript Makes Your Site an Application" after co-authoring the book "Using JavaScript." RGBjive and GEMjive followed. In 2011 JSConf.eu was a father-son outing. He's also attended a few other JSConfs and beerjs events.</p>
-		</div>
-
-	</div> 
-
-	
-
-	<div class='speaker' id='deckelman'>
-		<div class='name'>Selena Deckelmann <a href='http://twitter.com/selenamarie' class='twitter'>@selenamarie</a></div>
-		<div class='talk'>
-			<div class='title'>PLV8</div>
-			<p>Selena was entered into our <a href="http://2013.jsconf.us/call-for-speakers">reverse call for speakers process</a> with the topic description for the amazing <a href="https://code.google.com/p/plv8js/wiki/PLV8">PLV8</a>, the V8 engine JavaScript procedural langauge for PostgreSQL. She is currrently finalizing her talk description. Stay tuned.</p>
-
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Selena</div>
-			<p>Selena is a data architect at Mozilla who keeps chickens in Portland, OR and likes Postgres. She's an internationally-recognized speaker on open source, computer science education and databases. </p>
-		</div>
-
-	</div> 
-
-	<div class='speaker' id='det'>
-		<div class='name'>Janessa Det <a href='http://twitter.com/jandet' class='twitter'>@jandet</a></div>
-		<div class='talk'>
-			<div class='title'>BPM Detection with JavaScript</div>
-			<p>Digital Signals Processing (DSP) is inherently essential to any signals-based field, be it digital audio effects, computer graphics, or computer vision.  The web has just begun it's foray into accommodating for DSP, becoming increasingly equipped to handle and modulate signals with the advent of technologies such as the Web Audio API and WebGL.  With the basic DSP tools provided by these technologies, we are minimally bootstrapped and able to leverage these tools to implement powerful algorithms and incorporate powerful fields of research.  One such application is the modulation and processing of music signals.  In this talk I will focus on an application that is more complicated than it seems: automatic BPM detection of music.  Due to the complexities of how we as humans perceive sound,  parse harmonics, and "feel" beats within a song, BPM becomes a challenging and enthralling problem to tackle.  I've just begun to embark on an endeavor to implement BPM detection in javascript, building upon budding DSP tools in JS and pulling from algorithms hardened by academic research.  I have been digging into academic research papers in the field identifying and categorizing plausible algorithms from simple to complex, separated by effectiveness for differing applications.  I hope to implement a number of these algorithms across this spectrum and compare their effectiveness for different kinds of music and applications.  I believe exposing and providing robust algorithms for BPM detection would be a strong tool and asset towards many javascript-based web (and server-side ;D) applications, whether for categorization purposes, or for something more dynamic like music visualization.</p>
-			<p>I first began my investigation into BPM detection as a way to break music visualization out of its frequency rut to reflect more compelling metrics such as BPM &amp; key, which encode our consumption and perception of music in a different way.  I plan to use my implementations to build out music visualizations that use alternative metrics in a compelling way that reflects (or invokes!) how we emotionally react to the music we listen to.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Janessa</div>
-			<p>When Janessa was in elementary school, she wanted more than anything to make a website about Pokémon. Upon typing “HTML” in Alta Vista’s search box, a journey began from which she never turned back. Bolstered by a plethora of diverse influences—14 years of classical piano, a Bioengineering degree from Duke, and a Master’s in Computer Science from Columbia—she has developed a passion for finding ways to breed engineering research, music, and art with the trusty steed of JavaScript to make the magical unicorns of her imagination a reality. By day she hacks for Twitter in New York as a member of the Web team.</p>
-		</div>
-
-	</div> 
-
-
-	<div class='speaker' id='dupont'>
-		<div class='name'>Andrew Dupont <a href='http://twitter.com/andrewdupont' class='twitter'>@andrewdupont</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Andrew was voted in as a speaker through our <a href="http://2013.jsconf.us/call-for-speakers">alumni callback process</a>, he is currrently finalizing his talk description. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Andrew</div>
-			<p>Andrew Dupont is a freelance web developer and writer. He's the co-maintainer of Prototype, the popular JavaScript toolkit, and the author of Practical Prototype &amp; script.aculo.us, published by Apress. He yells at humans for sport.</p>
-		</div>
-
-	</div> 
-
-
-
-
-	<div class='speaker' id='eich'>
-		<div class='name'>Brendan Eich <a href='http://twitter.com/BrendanEich' class='twitter'>@BrendanEich</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Brendan was voted in as a speaker through our <a href="http://2013.jsconf.us/call-for-speakers">alumni callback process</a>, he is currrently finalizing his talk description, but has assured us that it will not include Wesley Snipes. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Brendan (/be)</div>
-			<p>Brendan Eich invented a little known language called JavaScript, perhaps you have heard of it? He co-founded <a href="http://mozilla.org">mozilla.org</a>, and serves as CTO, Mozilla. He posts somewhat regularly to <a href="http://brendaneich.com/">brendaneich.com</a>.</p>
-		</div>
-
 	</div>
 
 
 
-	<div class='speaker' id='fabbro'>
-		<div class='name'>Angelina Fabbro <a href='http://twitter.com/angelinamagnum' class='twitter'>@angelinamagnum</a></div>
+    <div class='speaker' id='stodd'>
+		<div class='name'>Sylvia Todd <a href='http://twitter.com/MakerSylvia' class='twitter'>@MakerSylvia</a></div>
 		<div class='talk'>
-			<div class='title'>JavaScript Masterclass: How you you go from being a good developer, to a great one?</div>
-			<blockquote>
-			<p>I am not an expert developer. I am also not a beginning developer. </p>
-			<p>I'm an intermediate developer, and I want to navigate the path from being a mediocre or good developer, to becoming a great or expert level developer. </p>
-			<p>How in the heck do I do this?</p>
-			<p>The tutorial ecosystem of the web is heavily skewed towards beginners, but what about the rest of us?</p>
-			</blockquote>
-			<p>If you identify with these statements in the slightest, then this talk is for you. With ideas from cognitive science, education, and some advice from admired programmers along the way, we are going to explore what it means to be a world-class developer and what we need to do to get there. I'll talk a little bit about the philosophy, attitude, and habits (both good and bad) required for learning how to learn better, and then we will talk about the kinds of skills and knowledge that an expert programmer in general needs. Along the way we'll touch about various myths and cognitive biases about who can and cannot be a great programmer, and leave you with a path to get started. By the end of the talk, I will have proposed a curriculum of topics that should take an intermediate developer and turn them into an advanced one, and special attention will be given to mastery of the JavaScript language.</p>
+            <div class='title'>Author: <a href="http://watercolorbot.com/">WaterColorBot</a></div>
 		</div>
 		<div class='bio'>
-			<div class='title'>Meet Angelina</div>
-			<p>Angelina Fabbro is a programmer based in Vancouver, Canada and works at <a href="http://steamclock.com/">Steamclock Software</a>. Angelina
-			has a background in cognitive science, building clever robots and
-			researching what people pay attention to. Her record as a web
-			developer is balanced with modern iOS experience and a keen sense of
-			design. Angelina also both teaches and mentors for the
-			Vancouver chapter of <a href="http://ladieslearningcode.com">Ladies Learning Code</a>.</p>
+			<div class='title'>Meet Sylvia</div>
+			<p>"Super-Awesome” Sylvia Todd started making and tinkering with things when she was 7, and always loved to try out new things. One year after visiting Maker Faire, she and her dad were inspired to create a web-show about making things called “Sylvia’s Super-Awesome Maker Show”, where she shows kids and adults that making things can be fun, easy, and more rewarding than just buying something purpose built. Now 12 years old and millions of views later, she’s covered everything from hobby rocketry, to sewable soft circuits, to Arduino. The show has garnered attention from parents and educators the world over, finding that something about the show gets students interested in making things and learning something along the way. In July 2013, she successfully launched her very first educational robotic kit on Kickstarter, the <a href="http://www.kickstarter.com/projects/1894919479/super-awesome-sylvias-watercolorbot-0">WaterColorBot</a>. Check out news, episodes and lots more at <a href="http://sylviashow.com">sylviashow.com</a>.</p>
 		</div>
-
+	</div>
+    <div class='speaker ' id='jtodd'>
+		<div class='name'>James Todd <a href='http://twitter.com/techninja42' class='twitter'>@techninja42</a></div>
+		<div class='talk'>
+            <div class='title'>Author: <a href="https://github.com/techninja/robopaint">robopaint</a>, <a href="https://github.com/techninja/cncserver">cncserver</a></div>
+		</div>
+		<div class='bio'>
+			<div class='title'>Meet Todd</div>
+			<p>Though James Todd has always been a tinkerer, he started his family early and somehow figured that it wasn't something he could continue with his young children. After a visit to Maker Faire, it was clear that family life and electronics, programming and making this wasn't just possible, but should be encouraged at every step. Eventually working with his oldest daughter Sylvia at the age of 8, they decided to create a youtube video in the style of a show about building a kit, and take it back to maker faire. The video became an overnight success, and after only a year had blossomed into a second life, sending his family across the country to talk about the wonders of making. Though he's never been to college, and didn't even finish high school, he writes code for fun and profit, and tries his best to share as much as he has time for at <a href="http://github.com/techninja">github.com/techninja</a>.</p>
+		</div>
 	</div>
 
-	<div class='speaker' id='farrell'>
-		<div class='name'>Ben Farrell <a href='http://twitter.com/bfarrellforever' class='twitter'>@bfarrellforever</a></div>
-		<div class='talk'>
-			<div class='title'>Using the Microsoft Kinect with Javascript OR Sweatin' to the Web</div>
-			<p>I will cover basics on how the Kinect works, some comparable hardware and how it differs, and finally a few solutions to get the Kinect working with your Javascript/HTML based webpage along with working examples of skeleton tracking, gestures for your application, and more.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Ben</div>
-			<p>Ben Farrell is a Creative Developer currently working at Digitalsmiths, in Durham NC, specializing in digital audio and video on many platforms. He's helped clients release web based Flash and HTML5 video players as well as iOS and Android video apps.  In combination with his last job at 360KID, Ben's projects have earned two Emmy awards, two more nominations and many other industry awards.</p>
-			<p>Ben is a UI developer at heart, but not one who stresses over how many pixels round a corner is, or how perfect his wireframes are. Instead, Ben loves new and innovative ways to use graphics, sound, and interaction - which is why mobile, touch, and Kinect based experiences are so interesting to him.</p>
-			<p>As he has lots of fun with video and sound, it should be no surprise that Ben is a Senior Producer at geek run Codebass Radio, runs a music radio show called "The Shark Attack",  and co-hosts a tech talk show called "Runtime Expectations".</p>
-			<p>You can find him blogging at <a href="http://benfarrell.com">benfarrell.com</a>, listen to his radio shows at <a href="http://codebassradio.net">codebassradio.net</a> and <a href="http://runtimeexpectations.com">runtimeexpectations.com</a>, or check out his music discovery side project at <a href="http://blastanova.com">blastanova.com</a>.</p>
-		</div>
+<!-- Monday -->
 
-	</div>
+    <div class='speaker ' id='virdee'>
+    <div class='name'>Kawandeep Virdee <a href='http://twitter.com/whichlight' class='twitter'>@whichlight</a></div>
+    <div class='talk'>
+            <div class='title'>Relational Computing: Making art we can do together</div>
+    </div>
+    <div class='bio'>
+      <div class='title'>Meet Kawandeep</div>
+      <p>Kawandeep Virdee uses technology and art to explore ways we can create meaning and joy collectively. Currently, he is at Embedly, working on the product, growth, and helping people make awesome things.   He is co-founder of the public art group New American Public Art, which has installed interactive work around Boston and the US.  Formerly a research scientist, he completed a fellowship researching community formation and communication on the internet at the New England Complex Systems Institute. Tech art talks and workshops include the Art Institute of Boston, MIT, Betascape 2012, and the Newcastle Connected Communities Symposium.  He blogs at www.whichlight.com and actively works to grow the tech art scene around Boston through Boston Creative Coders.</p>
+    </div>
+  </div>
 
 
-	
+  <div class='speaker ' id='goodner'>
+    <div class='name'>Marc Goodner <a href='http://twitter.com/robotdad' class='twitter'>@robotdad</a></div>
+    <div class='talk'>
+            <div class='title'>Start a Movement</div>
+    </div>
+    <div class='bio'>
+      <div class='title'>Meet Marc</div>
+      <p>I thrive on complexity.</p>
 
-	<div class='speaker' id='higgins'>
-		<div class='name'>Peter Higgins <a href='http://twitter.com/phiggins' class='twitter'>@phiggins</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Peter was voted in as a speaker through our <a href="http://2013.jsconf.us/call-for-speakers">alumni callback process</a>, he is currrently finalizing his talk description. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Peter</div>
-			<p>Grey bearded fist shaking new daddy Javascript developer. Former Dojo Toolkit project lead, general code monkey.</p>
-		</div>
+<!-- <p>I'm a Senior Program Manager at Microsoft, my primary focus is on project and release management. Most recently I was involved in shipping .NET 4.5.1 and the Azure SDK for .NET 2.2.</p> -->
 
-	</div>
-
-	<div class='speaker' id='lee'>
-		<div class='name'>Seb Lee-Delisle <a href='http://twitter.com/seb_ly' class='twitter'>@seb_ly</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Seb was entered into our <a href="http://2013.jsconf.us/call-for-speakers">reverse call for speakers process</a>, he is currrently finalizing his talk description. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Seb</div>
-			<p>Seb Lee-Delisle is an award winning digital artist and speaker who likes to make interesting things that engage and inspire people.</p>
-
-			<p>His work has pushed the boundaries of what is possible in digital, and he won a BAFTA for a BBC project with Plug-in Media, the agency he founded in 2003. In 2012 he was awarded an Arts Council grant for the large scale installation PixelPyros (the official launch of the Brighton Digital Festival), closely followed by a commission for the Dublin Science Gallery GAME exhibition, Lunar Trails, that features a full size arcade cabinet and a 3m wide drawing machine.</p>
-
-			<p>A sought-after speaker, his recent Creative JavaScript / HTML5 workshop series sold out within hours. He co-hosts the Creative Coding Podcast, his blog can be found at <a href="http://seb.ly">seb.ly</a> and he tweets <a href='http://twitter.com/seb_ly'>@seb_ly</a>. Photo credits due to <a href="http://www.flickr.com/people/stn1978/">Stefan Nitzsche</a>.</p>
-		</div>
-
-	</div>
-	
-
-	<div class='speaker' id='murphey'>
-		<div class='name'>Rebecca Murphey <a href='http://twitter.com/rmurphey' class='twitter'>@rmurphey</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Rebecca was entered into our <a href="http://2013.jsconf.us/call-for-speakers">reverse call for speakers process</a>, she is currrently finalizing her talk description. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Rebecca</div>
-			<p>I'm a JavaScript developer at <a href="http://bocoup.com">Bocoup</a> and a frequent speaker on the topic of code organization and best practices at various conferences, including JSConf US 2011, JSConf EU 2010, Full Frontal UK 2012, Fronteers (Amsterdam) 2012, and many others. I'm a co-organizer of the <a href="http://2012.texasjavascript.com/">TXJS conference</a>, the author of the learning site <a href="http://jqfundamentals.com">jQuery Fundamentals</a>, a contributor to the jQuery Cookbook from O'Reilly Media, and a technical reviewer for David Herman's Effective JavaScript. I'm also the co-host of the long-lost but occasionally resurrected yayQuery podcast. Most importantly, though, the bacon at the <a href="http://2009.jsconf.us">first JSConf</a>? I helped make that happen.</p>
-		</div>
-
-	</div>
-
-	<div class='speaker' id='schmidt'>
-		<div class='name'>Jed Schmidt <a href='http://twitter.com/jedschmidt' class='twitter'>@jedschmidt</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Jed was voted in as a speaker through our <a href="http://2013.jsconf.us/call-for-speakers">alumni callback process</a>, he is currrently finalizing his talk description. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Jed</div>
-			    <p>Jed is a javascript developer based in Tokyo, Japan.
-    He is
-        the guy behind
-        <a href="http://browserver.org">browserver</a>,
-        <a href="http://ramendan.com">ramendan</a>, and
-        <a href="http://140byt.es">140byt.es</a>,
-        and often seen on
-        <a href="https://github.com/jed">github</a>,
-        <a href="http://flickr.com/photos/tr4nslator">flickr</a>,
-        <a href="http://soundcloud.com/jedschmidt">soundcloud</a>, and
-        <a href="http://twitter.com/jedschmidt">twitter</a>.
-      </p>
-
-		</div>
-
-	</div>
+  <p>I got involved outside of work in 3D printing in early 2011. I found a lot of help in this from other people I knew at work who had been involved in it longer. The higher in person bandwidth communication was much more useful than internet resources. Lacking a place to get together after work I made one, the Maker Garage Chapter. As such its scope is broader than just 3D printing. The Maker Garage is a place where employees can work on their hardware projects, related to work or not. It’s a place to share knowledge, tools and inspiration. We’ve grown a lot over the past two years and opened a Maker Space at work this year. Outside of work I’ve also been involved in alpha build verification for a successful 3D printer Kickstarter, the Kossel Pro. I also love woodworking and audio synthesis. Someday I’ll bring those together and build that modular synthesizer.</p>
+    </div>
+  </div>
 
 
 
-	<div class='speaker' id='sharp'>
-		<div class='name'>Remy Sharp <a href='http://twitter.com/rem' class='twitter'>@rem</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Remy was voted in as a speaker through our <a href="http://2013.jsconf.us/call-for-speakers">alumni callback process</a>, he is currrently finalizing his talk description. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Remy</div>
-			<p><a href="http://twitter.com/rem">Remy</a> is the founder and curator of <a href="http://full-frontal.org">Full Frontal</a>, the UK based JavaScript conference. He also ran <a href="http://jqueryfordesigners.com">jQuery for Designers</a>, co-authored <a href="http://introducinghtml5.com">Introducing HTML5</a> (adding all the JavaScripty bits) and is one of the curators of <a href="http://html5doctor.com">HTML5Doctor.com</a>.</p>
+    <div class='speaker last' id='lau'>
+    <div class='name'>Wei Lau </div>
+    <div class='talk'>
+      <div class='title'>US STEM: Robotics as a platform for inspiring students and making learning FUN</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Wei</div>
+      <p>Wei Lau works as a Senior Software Engineer for Data Tactics on Big Data solutions.  He has been a mentor for the past nine years with the For Inspiration and Recognition of Science and Technology (FIRST) organization and has been a leading mentor for USSTEM since its inception.   Through the FIRST Robotics program, Mr. Lau mentors high school level students in Science, Technology, Engineering and Mathematics (STEM) by designing and building a new robot every year that is programmed to play a different game.  He provides opportunities for each student to become engaged and eager about programming, no matter what their knowledge and skill level is, from teaching them to program robots, develop visual controls in Java and C++, and using their newly gained programming skills in combination with their Algebra and Physics courses.  He also works with USSTEM to further expand on the successful areas of the program to grow the volunteer efforts to reach the broader community by helping to organize, setup and run local robotic competitions to provide additional opportunities for students to work, play, and compete with their FIRST robots in the offseason.</p>
+    </div>
 
-<p>Whilst he’s not <a href="http://remysharp.com">writing articles</a> or running and <a href="http://lanyrd.com/people/rem/">speaking at conferences</a>, he runs his own development and training company in Brighton called <a href="http://leftlogic.com">Left Logic</a>.  And he built these too: <a href="http://jsbin.com">jsbin.com</a>, <a href="http://html5demos.com">html5demos.com</a>, <a href="http://remote-tilt.com">remote-tilt.com</a>, <a href="http://responsivepx.com">responsivepx.com</a>, <a href="https://github.com/remy/nodemon">nodemon</a>, <a href="https://github.com/remy/inliner">inliner</a>, <a href="http://mit-license.org">mit-license.org</a>, <a href="http://snapbird.org">snapbird.org</a> and <a href="http://jsconsole.com">jsconsole.com</a>!</p>
-
-<p>Generally speaking, he’s about as crazy about JavaScript, HTML &amp; CSS as a squirrel is about his nuts during the winter!</p>
-		</div>
-
-	</div>
-
-	<div class='speaker' id='sullivan'>
-		<div class='name'>Nicole Sullivan <a href='http://twitter.com/stubbornella' class='twitter'>@stubbornella</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>Nicole was voted in as a speaker through our <a href="http://2013.jsconf.us/call-for-speakers">reverse call for speakers</a>, she is currrently finalizing her talk description. Stay tuned.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Nicole</div>
-			<p>Nicole is a UI performance nerd living and working in San Francisco. She helps companies make their CSS smaller and their UI more manageable. She is also an author, most recently contributing to the Web Performance Daybook Volume 2.</p>
-		</div>
-
-	</div>
-
-
-
-	 
-	<div class='speaker' id='vanderzee'>
-		<div class='name'>Peter van der Zee <a href='http://twitter.com/kuvos' class='twitter'>@kuvos</a></div>
-		<div class='talk'>
-			<div class='title'>Live Recompilation of Running JS</div>
-			<p>Recompilation of running JS without having to restart it. It's like Bret Victors talk, when he demo's rewriting code (http://vimeo.com/36579366 , for example at 5:45). I'd like to show a working proof of concept of this as well as demo other parts of his talk that are up'n'running, and how you'd go about coding something like that.</p>
-			<p>So a crazy nerdcore JS rewriting and tooling talk. Guaranteed to blow peoples minds.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Peter</div>
-			<p>He's the organizer of the yearly js1k competition. Wrote a static analysis tool for JS (ZeonJS) and a JS parser (v2 is currently the fastest! ;). Passionate about writing tools and parsers with/for/in JS, as well as nerdcore JS on the language level.</p>
-
-			<p>Works at Uxebu on pixelplant, a swf2html service.</p>
-
-			<p>Happily married. Loves pretty much any kind of games, be it digital or
-			analogue. Seriously, go play some analogue games with him.</p>
-		</div>
-
-	</div> 
-
-
-	<div class='speaker' id='velez'>
-		<div class='name'>Raquel V&egrave;lez <a href='http://twitter.com/rockbot' class='twitter'>@rockbot</a></div>
-		<div class='talk'>
-			<div class='title'>AI.js: Robots with Brains!</div>
-			<p>Once upon a time, there was a roboticist. She spent eight years working with robots of various shapes, sizes, and intelligence levels - her specialty was in planning and navigation algorithms (useful for driverless cars, rescue robots, etc.). Eager for some fresh air away from the lab, she switched gears and started developing a better Internet with JavaScript and Node.js.</p>
-			<p>In her time away, however, her little robot friends have also learned JavaScript! The likes of Johnny-Five and NodeCopter have breathed new life into those traditionally Python/C++-controlled machines, and our favorite roboticist's little vacation has come to a close.</p>
-			<p>Whereas 2012 was the start of moving, reactive robots programmed in JavaScript, 2013 will be the year of the smarter, autonomous robot! Task-driven and data-oriented, they will be the most intelligent JS robots you've ever seen - and they'll be the founders of the robot.js of tomorrow.</p>
-			<p>In this talk, we will discuss and review examples of not only what is possible, but also what traditional roboticists will have a hard time acknowledging: JavaScript is not only a legitimately viable language for robots, but also a fascinating opportunity to solve problems that can't be solved with Python/C++ alone!</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Raquel</div>
-			<p>Raquel "@rockbot" V&egrave;lez is a really weird engineer.  First, she received her BS in mechanical engineering from Caltech.  Then she (played with | built | programmed | psychoanalyzed) robots for 8 years, at places like NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe.  She took a break to do that startup thing as a co-founder and CTO... but came to her senses and found a new life online as a web developer.  Raquel got her start as a Developer at Skookum Digital Works; she is now an engineer at Storify in San Francisco, working with an amazing team of people to navigate and define the intersection between journalism and social media.</p>
-
-			<p>In her off time, you can find her baking, hacking on node.js, and speaking.  Also, hanging out with her hilarious husband and two cats dressed in dog suits.  She's online at <a href="http://raquelvelez.com">http://raquelvelez.com</a></p>
-		</div>
-
-	</div> 
-	<div class='speaker' id='wittens'>
-		<div class='name'>Steven Wittens <a href='http://twitter.com/unconed' class='twitter'>@unconed</a></div>
-		<div class='talk'>
-			<div class='title'>Making WebGL Dance</div>
-			<p>The modern graphics card is a massive parallel computer, capable of pushing dozens of gigabytes of data per second through its pipes. And now with WebGL, you have the keys. To wield that power properly, you need math and lots of it. In this talk we'll explore what makes modern 3D graphics tick, how realistic shader effects are made, and how I learnt to stop worrying and love linear algebra.</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet Steven</div>
-			<p>Steven Wittens is a long time web developer, recreational mathematician and graphics enthusiast. Ever fond of playing with the cutting edge toys, he maintains the tech blog <a href="http://acko.net">Acko.net</a>, a living demo of JavaScript, CSS 3D, WebGL. A veteran of the open source world and supposedly a qualified engineer, he combines his passion for math and software with a perpetual desire to make the world a more visually interesting place.</p>
-		</div>
-
-	</div>
-
-	<div class='speaker' id='yayquery'>
-		<div class='name'>yayQuery <a href='http://twitter.com/yayquery' class='twitter'>@yayquery</a></div>
-		<div class='talk'>
-			<div class='title'>In Process</div>
-			<p>YayQuery was voted in as a speaker through our <a href="http://2013.jsconf.us/call-for-speakers">alumni callback process</a>, they are currrently finalizing their talk/show description. Stay tuned or check out their <a href="http://yayquery.com/">previous episodes</a>!</p>
-		</div>
-		<div class='bio'>
-			<div class='title'>Meet yayQuery</div>
-			<p>Their biography must be <a href="http://yayquery.com/">seen</a> (and <a href="view-source:yayquery.com/">source viewed</a>) to truly understand the yayQuery.</p>
-		</div>
-
-	</div>
+  </div>
 
 </div>
+  	<hr class="featurette-divider">
+	<div class="row featurette">
+      <h2 id='experts' class="featurette-heading tight">Domain Experts</h2>
+
+    <h2><i>On-hand Python Experts</i></h2>
+
+    <div class='speaker' id='hunt'>
+		<div class='name'>Randall Hunt <a href='http://twitter.com/jrhunt' class='twitter'>@jrhunt</a></div>
+		<div class='talk'>
+            <div class='title'>Expertise: <a href="https://github.com/theycallmeswift/BreakfastSerial">BreakfastSerial</a></div>
+		</div>
+		<div class='bio'>
+			<div class='title'>Meet Randall</div>
+            <p>Randall Hunt is a software engineer and hacker from the NYC tech scene. Currently working on some next generation database technology at MongoDB Randall works primarily in Python and C++. Previously Randall worked at Ames and Langley research centers where he worked for the Intelligent Robotics Group. Randall also dedicates the remainder of his time to the hackNY fellowship and hackathon programs to federate the next generation of student hackers and engineers in NYC.</p>
+        </div>
+
+	</div>
+
+	<h2><i>On-hand Ruby Experts</i></h2>
+    <div class='speaker' id='evans'>
+		<div class='name'>Ron Evans <a href='http://twitter.com/deadprogram' class='twitter'>@deadprogram</a></div>
+		<div class='talk'>
+			<div class='title'>Author: <a href="http://artoo.io">Artoo</a></div>
+		</div>
+		<div class='bio'>
+			<div class='title'>Meet Ron</div>
+			<p>Ron Evans is a well-known software developer who has been very active in the free and open source community for over 20 years. As ringleader of <a href="http://hybridgroup.com">The Hybrid Group</a>, he has been helping clients solve some of their most difficult technical and business problems. Ron has been a very active speaker, presenting at conferences such as RubyConf, FutureRuby, RubyKaigi, Golden Gate Ruby Conference, Los Angeles Ruby Conference, Conferencia Rails, and MagmaConf. He was featured in Computerworld Magazine in the article "Rock Star Coders" for his popular blog post "I'd Rather Be A Jazz Programmer", as well as having written articles for MSNBC, BYTE Magazine, and the Direct Marketing Association, Ron is an active code contributor to many open source projects, including being the creator of the award-winning <a href="http://kidsruby.com">KidsRuby</a>, free software to help teach Ruby programming to kids.</p>
+		</div>
+
+	</div>
+
+
+
+    <h2><i>On-hand Node.js Experts</i></h2>
+    <div class='speaker' id='waldron'>
+		<div class='name'>Rick Waldron <a href='http://twitter.com/rwaldron' class='twitter'>@rwaldron</a></div>
+		<div class='talk'>
+			<div class='title'>Author: <a href="https://github.com/rwldrn/johnny-five">Johnny-Five</a></div>
+		</div>
+		<div class='bio'>
+			<div class='title'>Meet Rick</div>
+			<p>Rick Waldron is an open source software engineer at Bocoup and creator of Johnny-Five, the JavaScript Arduino programming framework for Node.js. In addition to being a core committer to jQuery, Rick sits on the jQuery Foundation's Board of Directors and serves as a representative to ECMA/TC39, forging the future of the JavaScript programming language. Though sometimes abrasive, Rick is actually a nice guy. </p>
+		</div>
+
+	</div>
+    <h2><i>On-hand Robot Experts</i></h2>
+    <div class='speaker ' id='velez'>
+    <div class='name'>Raquel V&eacute;lez <a href='http://twitter.com/rockbot' class='twitter'>@rockbot</a></div>
+    <div class='talk'>
+      <div class='title'>Author: <a href="https://github.com/rockbot/vektor">Vektor</a></div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Raquel</div>
+      <p>Raquel V&eacute;lez is a Software Developer in the Mobile/R&amp;D group at Sauce Labs in San Francisco, integrating her node.js and front-end web development skills with more than a decade of robotics experience. She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe. In her off time, you can find her baking, teaching NodeBots not to fall off of tables, and speaking. Also, hanging out with her hilarious husband and two cats dressed in dog suits.</p>
+
+    </div>
+
+  </div>
+
+
+<!-- Monday -->
+    <div class='speaker ' id='huggins'>
+    <div class='name'>Jason Huggins <a href='https://twitter.com/hugs' class='twitter'>@hugs</a></div>
+    <div class='talk'>
+      <div class='title'>Author: Tapster</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Jason</div>
+      <p>Jason is the co-founder &amp; CTO of <a href="https://saucelabs.com/">Sauce Labs</a>, a software test
+infrastructure company. He's also the creator of a popular open source
+web testing tool called <a href="http://seleniumhq.org/">Selenium</a>. Jason created <a href="http://tapsterbot.com/">Tapster</a>, a mobile testing robot, as a fun project to
+merge his two interests of robotics and test automation. For that
+project, he also created <a href="http://bitbeam.org/">Bitbeam</a> as an open source and 3D
+printable alternative to LEGO Technic for building robots.</p>
+    </div>
+
+  </div>
+    <div class='speaker last' id='rose'>
+    <div class='name'>Emily Rose <a href='https://twitter.com/nexxylove' class='twitter'>@nexxylove</a></div>
+    <div class='talk'>
+      <div class='title'>Author: RickRollio</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Emily</div>
+      <p>Robot inventor, Copter wrangler, IRC lion tamer.</p>
+    </div>
+
+  </div>
+
+</div>
+      <hr class="featurette-divider">
+<div class="row featurette">
+      <h2 id='workshop' class="featurette-heading tight">
+    Workshop Guides</h2>
+
+
+
+     <div class='speaker ' id='beri'>
+		<div class='name'>Jonathan Beri <a href='https://plus.google.com/+JonathanBeri/' class='twitter'>+JonathanBeri</a></div>
+		<div class='talk'>
+			<div class='title'>Workshop: Robotics</div>
+        </div>
+		<div class='bio'>
+			<div class='title'>Meet Jonathan</div>
+			<p>Jonathan is a Developer Advocate at Google where he plays with APIs all day. Sometimes that means slapping a tablet &amp; Google Hangout on a Roomba. Other times that means adding a cloud-based scoreboard to a laser-powered Foosball table. When he's not at work, he's busy hacking away on Node.js, building Nodebots that roll and/or fly.</p>
+		</div>
+
+	</div>
+
+<!-- Monday -->
+
+     <div class='speaker ' id='chipps'>
+    <div class='name'>Sara Chipps <a href='https://twitter.com/sarajchipps' class='twitter'>@sarajchipps</a></div>
+    <div class='talk'>
+      <div class='title'>Workshop: Wearables</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Sara</div>
+      <p>I discovered hardware hacking 6 months ago when my team won the Node Knockout innovation award with our LED covered christmas sweater. It's been love ever since, I'm obsessed with hacking on hardware.</p>
+    </div>
+
+  </div>
+
+
+<!-- Monday -->
+<div class='speaker ' id='continanza'>
+    <div class='name'>Chris Continanza <a href='https://twitter.com/em_csquared' class='twitter'>@em_csquared</a></div>
+    <div class='talk'>
+      <div class='title'>Workshop: Microcontrollers and the Internet of Things (IoT)</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Chris</div>
+      <p>I am a software developer by day, hardware hacker by night.  Over the last two years I've shipped production systems, installed two internet-enabled arduino projects in the Heroku office (where I work), and built a Websockets-based demo of the Internet of Things at scale. <br/><br/>
+      My passion specifically for microcontrollers and the Internet of Things stems from work I did in college teaching computer science via Lego Mindstorms. I helped design college-level coursework for the entire CSC cirriculum, from systems labs to AI labs.  I believe microcontrollers are the perfect way to demonstrate the practical power of computing to interact with the physical world.<br/><br/>
+      Now that I am a professional engineer, I have been channeling that work into bringing high-level languages and concepts to the newest generation of internet-enabled devices.  I've built an HTTP library for Arduino so that I can more easily consume REST endpoints.  I've extended libraries on the Arduino and RasPI to add features I've needed for projects.<br/><br/>
+      And while I love to get lost in the details, I have the discipline to step back and try to get others excited in the new world of possibilities afforded by ubiquitous computing.</p>
+    </div>
+
+  </div>
+
+
+<div class='speaker ' id='davis'>
+    <div class='name'>Alan Davis <a href='https://twitter.com/neptunius0' class='twitter'>@neptunius0</a></div>
+    <div class='talk'>
+      <div class='title'>Workshop: Interaction Interfaces</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Alan</div>
+      <p>Alan Davis is a software engineer at Leap Motion, where he has worked on gesture recognition research, API design and implementation, and developer documentation. Previously, he performed research in computational linguistics, created intelligent game playing systems, and built least cost call routing services. He earned his BS in Computer Science and MS in Intelligent Systems from the University of Texas at Dallas. Alan enjoys juggling, dancing, poetry, communicating complex ideas in simple ways, and inspiring others to unlock their creativity.</p>
+    </div>
+
+  </div>
+
+
+
+<!-- Monday -->
+
+     <div class='speaker ' id='fabbro'>
+    <div class='name'>Angelina Fabbro <a href='https://twitter.com/angelinamagnum' class='twitter'>@angelinamagnum</a></div>
+    <div class='talk'>
+      <div class='title'>Workshop: Artificial Intelligence &amp; Ethical Responsibility</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Angelina</div>
+      <p>I completed a degree in Cognitive Science. While doing so I participated in graduate level robotics courses (as an undergrad) and also went on to to compete in the Rochard Tapia Conference for Diversity in Computing Science robotics competition in 2007 - our team came in 2nd overall, as well as won the coveted Technical Achievement award for our collision avoidance algorithm.<br/><br/>Although I transitioned to a full time web developer since graduating (I work at Mozilla now), I am still an avid hobby roboticist in my spare time and I look forward to integrating as much sensor data as I can from the real world as I can possible get away with. My current project is to re-create a smaller, more agile version of the robot our team built years ago and to replicate our collision avoidance algorithm using Javascript for use with Johnny 5</p>
+    </div>
+
+  </div>
+
+
+     <div class='speaker ' id='saale'>
+		<div class='name'>Joe Flasher and Zach Saale <a href='https://istrategylabs.com' class='twitter'>istrategylabs.com</a></div>
+		<div class='talk'>
+			<div class='title'>Workshop: Soldering, Wiring, Prototype</div>
+        </div>
+		<div class='bio'>
+			<div class='title'>Meet Joe and Zach</div>
+			<p>Zach Saale (Director of Operations) and Joe Flasher (CTO) are with <a href="http://istrategylabs.com/">iStrategyLabs</a>. ISL is focused on bridging the digital and physical through various experiences and events. They have built online interactive experiences that lead to physical actions in the real world. One of their recent physical projects was <a href="http://istrategylabs.com/work/redds-apple-launcher/">The Redds Apple Launcher</a>, something similar to which they will be talking about. They have worked with clients ranging from Hilton to AT&amp;T to GE to Miller-Coors. We're really excited to show off their brand of digital/physical interaction.</p>
+		</div>
+
+	</div>
+
+
+
+
+    <div class='speaker ' id='gottfried'>
+		<div class='name'>Jon Gottfried <a href='https://twitter.com/jonmarkgo' class='twitter'>@jonmarkgo</a></div>
+		<div class='talk'>
+			<div class='title'>Workshop: Home Automation</div>
+        </div>
+		<div class='bio'>
+			<div class='title'>Meet Jon</div>
+			<p>Jon has been hacking on hardware since 2005, where he built competetive autonomous firefighting robots with PIC boards. Lately, he has been working on some home automation projects and phone-controlled robots that he is turning into tutorials for Twilio <a href="http://www.twilio.com/blog/2012/08/diy-home-automation-using-twilio-powerswitch-arduino-and-pusher.html">DIY Home Automation using Twilio</a> and <a href="http://www.twilio.com/blog/2012/06/build-a-phone-controlled-robot-using-node-js-arduino-rn-xv-wifly-arduinoand-twilio.html">Twilio Robot</a> as well as some Google Glass-controlled robots for fun. He loves hacking and loves teaching.</p>
+		</div>
+
+	</div>
+
+
+<!-- Monday -->
+
+    <div class='speaker' id='hinton'>
+    <div class='name'>Susan Hinton <a href='https://twitter.com/suziam' class='twitter'>@suziam</a></div>
+    <div class='talk'>
+      <div class='title'>Workshop: 3D Printing</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Susan</div>
+      <p>Susan Hinton is a web developer by day, and hobby enthusiast by night. She's currently heavily immersed in the 3D printing scene, teaching and enabling others in the technology. Her latest weapon of choice is a Printrbot Jr, which has been tricked out with upgrades and experiments. In 2011, she released a 3D printed jewelry range at <a href="http://owlposse.com/">http://owlposse.com</a>. Her idea of an ideal Friday night is 3D modeling jewelry and robots, accompanied by a glass or two of quality scotch. As a board member of SYN Shop the Las Vegas hackerspace, Susan maintains the rapid prototyping station there. She also runs a newsletter called 3D Print Weekly over at <a href="http://3dprintweekly.com/">3dprintweekly.com</a>. She's probably attempting to 3D print a cat right now.</p>
+    </div>
+
+  </div>
+
+<!--
+  <div class='speaker ' id='hoyt'>
+		<div class='name'>Kevin Hoyt <a href='https://twitter.com/krhoyt' class='twitter'>@krhoyt</a></div>
+		<div class='talk'>
+			<div class='title'>Workshop: Electronic Fundamentals</div>
+        </div>
+		<div class='bio'>
+			<div class='title'>Meet Kevin</div>
+			<p>Kevin is an evangelist with Adobe, focusing on the intersection of emerging technologies and the creative workflow.  Put another way, I get paid to explore things like Kinect, Leap, Arduino, 3D printing, Bluetooth LE and anything else that looks like it might have an application related to Adobe tools and services.  He has been presenting physical computing topics at conferences for several years, have run hands-on workshops for professionals on getting started with Arduino, and have recently been involved in teaching high school students soldering and basic robotics.</p>
+		</div>
+
+	</div>
+ -->
+
+
+
+
+<!-- Monday -->
+
+     <div class='speaker ' id='rizzitano'>
+    <div class='name'>Ari Rizzitano <a href='https://twitter.com/arizzitano' class='twitter'>@arizzitano</a></div>
+    <div class='talk'>
+      <div class='title'>Workshop: Robotics</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Ari</div>
+      <p>Ari is a software developer at AppNeta in Boston. A hardware tinkerer since grade school, she's always looking for ways to bring her design and programming background into the world of physical computing. When she's not busy speeding up web apps, she's hacking together robots to collaborate with (and annoy) her colleagues.</p>
+    </div>
+
+  </div>
+
+
+
+     <div class='speaker ' id='skalnik'>
+    <div class='name'>Mike Skalnik <a href='https://twitter.com/skalnik' class='twitter'>@skalnik</a></div>
+    <div class='talk'>
+      <div class='title'>Workshop: 3D Printing</div>
+        </div>
+    <div class='bio'>
+      <div class='title'>Meet Mike</div>
+      <p>Mike is a developer at GitHub. After having good friends playing with hardware for many years, he was inspired to bring some of this to GitHub. Starting with a 3D printer (now controlled by their company chat bot, Hubot), he has slowly worked to reignite the hardware hacking culture and make it easier for the open source hardware community to leverage GitHub for their needs.</p>
+    </div>
+
+  </div>
+
+
+
+     <div class='speaker ' id='szymczykowski'>
+		<div class='name'>Pawel Szymczykowski <a href='https://twitter.com/makenai' class='twitter'>@makenai</a></div>
+		<div class='talk'>
+			<div class='title'>Workshop: Robotics</div>
+        </div>
+		<div class='bio'>
+			<div class='title'>Meet Pawel</div>
+			<p>Pawel Szymczykowski is a software engineer at <a href="http://zappos-expo.com/">Zappos Labs</a> (but his business card says "King of Goblins) and a proud member of the growing #VegasTech community. He is one of the board members of <a href="https://synshop.org/">SYN Shop</a>, a local hackerspace, and likes to tinker with a little bit of everything. He tries takes part in as many community projects like <a href="http://downtownpodcast.tv/">Downtown Podcast</a> and <a href="http://vegasvernacular.org/home">Vegas Vernacular</a> as possible while keeping his job, and enjoys organizing events like <a href="http://makerfairevegas.com/">Mini Maker Faire</a> and <a href="http://nodebotsdaylv.com/">Nodebots Day</a> with Susan Hinton and other trusted friends. Often leaps before looking, and it's seemed to work OK so far.</p>
+		</div>
+
+	</div>
+
+
+
+    <div class='speaker last' id='wallace'>
+		<div class='name'>Max Wallace <a href='http://twitter.com/wmaxwallace' class='twitter'>@wmaxwallace</a></div>
+		<div class='talk'>
+			<div class='title'>Workshop: HackerSpaces</div>
+        </div>
+		<div class='bio'>
+			<div class='title'>Meet Max</div>
+			<p>In North Carolina, Max started and ran <a href="http://www.hackerspacecharlotte.org/">Hackerspace Charlotte</a> for two and a bit years.  They went from fifty people in the back room of a Panera to a live hackerspace in just under three months.  HSC also surpassed forty other spaces around the world to win the <a href="http://www.element14.com/community/groups/the-great-global-hackerspace-challenge">Great Global Hackerspace Challenge</a>, as well as set a Guinness World Record for Largest QR Code.  They are currently on their second location, fully-self-funded, and fully insured.</p>
+		</div>
+
+	</div>
+
+
+
+</div>
+</div>
+    </div>

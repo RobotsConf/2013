@@ -1,4 +1,5 @@
 <!doctype html public "✰">
+<html lang="en">
 <!--
 
      ..............
@@ -10,20 +11,34 @@
 		   II
  -->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=990">
-  <!-- gh-pages likes to cache for 24h, let's disable that -->
-  <meta http-equiv="cache-control" content="max-age=0" />
-  <meta http-equiv="expires" content="Thu, 01 Jan 1970 13:37:00 GMT" />
-  <meta http-equiv="pragma" content="no-cache" />
-  <link rel="shortcut icon" href="/img/favicon.png" >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- gh-pages likes to cache for 24h, let's disable that -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="expires" content="Thu, 01 Jan 1970 13:37:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="shortcut icon" href="/img/favicon.png" >
 
-  <title>RobotsConf - {{page.title}}</title>
-  <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+    <meta name="description" content="">
 
-  <link rel="stylesheet" media="screen" href="/css/main.css" >
-  <script src='/js/all.js'></script>
+    <title>RobotsConf - {{page.title}}</title>
+    <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+
+    <link rel="stylesheet" media="screen" href="/css/carousel.css" >
+    <link rel="stylesheet" media="screen" href="/css/main2.css" >
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src='/js/robotsconf.js'></script>
 </head>
 <!---
      ..............
@@ -34,120 +49,63 @@
      ..............
 -->
 <body>
-  <a href='#frame' id='rtt'>Return to Top</a>
-  <div id="frame">
-    <div id='shell-background'>
-      <div id='content' class='clearfix'>
-        <div id='left'>
-          <a class='brand' href="/">
-              <img src="/img/nav-logo.png" alt="RobotsConf - The first ever Hardware Conference for Software Developers August 19 and 20, 2013" height="170" width="229"/>
-          </a><div id='left-content'>
-            <ul class='nav'>
-              <!-- <li><a href="/schedule">Schedule</a></li> -->
-              <li class='news' ><a href="/pages/news.html">News</a></li>
-              <li class='venue'><a href="/#venue">Venue</a></li>
-              <li class='speakers'><a  href="/pages/call-for-speakers.html">Call for Makers</a></li>
-              <!-- <li class='events'><a  href="/events">Events</a></li> -->
-              <li class='sponsors'><a href="/#sponsors">Sponsors</a></li>
-              <li class='exhibits'><a  href="/#sponsors">Exhibitors</a></li>
-              <li class='about'><a href="/#about">About</a></li>
+    <div class="navbar-wrapper">
+      <div class="container">
 
-              <li><a href="https://ssl.omnihotels.com/Omni?Perseus_state=clear&lang_code=en-us&prop=AIPRST&group_code=052613JSCONFAIP&depart_date=6/1/2013&arrival_date=5/28/2013">Hotel Rooms</a></li>
-
-            </ul>
-            <hr/>
-            <div id='social' class='clearfix'>
-              <a href="http://twitter.com/robotsconf" id='twitter-button'>
-                Twitter
-              </a>
-              <a href="https://www.facebook.com/groups/robotsconf/" id='facebook-button'>
-                Facebook
-              </a>
-              <a href="https://plus.google.com/communities/108690140179099971045" id='gplus-button'>
-                Google Plus
-              </a>
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/"><img src="/img/nav-logo-horz.png"/></a>
             </div>
-            <hr/>
-            <div id='countdown'>
-              <div id='days'>
-                <span></span> DAYS
-              </div>
-              <div id='daystep'>
-                <span id='hours'></span>H
-                <span id='minutes'></span>M
-                <span id='seconds'></span>S
-              </div>
-            </div>
-            <hr/>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class='inactive'><a href='javascript:void(0);'>Dec 6-7</a></li>
+                <li id='projectsMenu'><a href="/pages/projects.html">Projects</a></li>
 
-
-            <div id='heaven'>
-              <div id='weather'>
-              </div>
-              <div id='temperature'>
-                <span id='high'>
-                  H<span></span>&deg;
-                </span>
-                &nbsp;&nbsp;&nbsp;
-                <span id='low'>
-                  L<span></span>&deg;
-                </span>
-              </div>
-              <div id='location'>
-                Amelia <span>OMG WE ARE ON AN</span> Island, FL
-              </div>
+                <li id='scheduleMenu'><a href="/pages/schedule.html">Schedule</a></li>
+                <li id='speakersMenu'><a href="/pages/speakers.html">Speakers</a></li>
+                <li id='venueMenu'><a href="/pages/venue.html">Venue</a></li>
+                <li id='sponsorsMenu'><a href="/pages/sponsors.html">Sponsors</a></li>
+                <!-- <li id='aboutMenu'><a href="/pages/about.html">About</a></li>            -->
+              </ul>
+                <ul class="nav navbar-nav navbar-right" >
+                <li><a href="http://twitter.com/robotsconf" id='twitter-button'  rel="me"><i class='icon-twitter'></i></a></li>
+              <li><a href="https://plus.google.com/communities/111003789351003878107" id='gplus-button' ><i class='icon-google-plus'></i></a></li>
+                </ul>
             </div>
           </div>
         </div>
-        <div id='right'>
-          <div id='header'>
-            <a href="http://tickets.robotsconf.com" id='regnow'>
-              Registration Now Open
-            </a>
-            <div id='twitter-pull'>
-              <img src="/img/round-robot.png" alt="JS"/>
-              <div id='tweet'>
-              </div>
+
+      </div>
+    </div>
+
+    {{content}}
+
+    <div class="container">
+
+        <footer>
+            <a href="/"><img src="/img/footer-logo.png" alt="JSConf US 2013" height="82" width="96" /></a><br/><br/>
+
+              <a href="/" >Home</a>  |
+              <a title="Tickets" href="http://tickets.robotsconf.com">Tickets</a> |
+              <a href="http://www.omnihotels.com/FindAHotel/AmeliaIsland/MeetingFacilities/RobotConference8.aspx">Hotel Rooms</a> |
+              <a href="/pages/schedule.html">Schedule</a>  |
+              <a href="/pages/venue.html">Venue</a>  |
+              <a href="/pages/speakers.html">Speakers</a>  |
+              <a href="/pages/sponsors.html">Sponsors</a>  |
+              <a href="/pages/about.html">About</a> |
+              <a href="https://plus.google.com/105500764340831514527" rel="publisher">Google+</a>
+            <div class="credits">
+                <p class="copyright"><br/>Copyright &copy; <script>document.write((new Date()).getFullYear());</script> Iterative Designs</p>
             </div>
-          </div>
-          <div id='{{ page.id }}'>
-          {{ content }}
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="footer">
-    <div>
-      <a href="/"><img src="/img/footer-logo.png" alt="JSConf US 2013" height="82" width="96" /></a>
-    </div>
-    <div class='nav'>
+        </footer>
 
-
-      <a href="/" >Home</a>  |
-      <a href="/pages/news.html">News</a>  |
-      <!-- <a href="/schedule">Schedule</a>  |   -->
-      <a  href="/pages/call-for-speakers.html">Call for Makers</a> |
-      <a href="/#venue">Venue</a>  |
-      <a href="/speakers">Speakers</a>  |
-      <a href="/trainers">Trainers</a>  |
-      <a href="/#sponsors">Sponsors</a>  |
-      <a href="/#exhibitors">Exhibitors</a>  |
-      <a href="/#about">About</a>  |
-      <a href="/#curators">Organizers</a> |
-      <a title="Tickets" href="http://tickets.robotsconf.com">Tickets</a> |
-      <a href="https://ssl.omnihotels.com/Omni?Perseus_state=clear&lang_code=en-us&prop=AIPRST&group_code=052613JSCONFAIP&depart_date=6/1/2013&arrival_date=5/28/2013">Hotel Rooms</a>
     </div>
-
-    <div class="columns">
-      <div class="credits">
-        <p class="copyright">Copyright &copy; <script>document.write((new Date()).getFullYear());</script> Iterative Designs</span>
-
-        <p class="authors">
-        </p>
-      </div>
-    </div>
-  </div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -157,8 +115,7 @@
 
   ga('create', 'UA-1264213-25', 'robotsconf.com');
   ga('send', 'pageview');
-
-  $(function () { activateMenu('<%= this.id %>'); });
+  activateMenu('{{page.id}}Menu');
 </script>
 </body>
 </html>
