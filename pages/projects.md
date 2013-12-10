@@ -17,6 +17,7 @@ id: projects
 </div>
 
 
+
 <div class='team' id='floatbot'>
   <div class='name'>@FloatBot</div>
   <div class='Members'>
@@ -25,4 +26,10 @@ id: projects
     <a href="http://twitter.com/dtex">Donovan</a></div>
   <div class='description'>@FloatBot was an interactive RobotsConf2013 project that allowed attendees to tweet driving commands to our robot in the form "@FloatBot FFPLFRBPS". Query services polled Twitter for new commands and passed them along wirelessly to a simple robot built on top of a Parallax chassis with an Arduino-compatible Spark Core as the brains. Code available on <a href="https://github.com/dtex/robotsconf2013">github</a></div>
   <div class='builtwith'><strong>Built With:</strong> <i class='icon-check'></i> Spark Core <i class='icon-unchecked'></i> LeapMotion <i class='icon-unchecked'></i> Arduino</div> <i class='icon-checked'></i> Node.js</div>
+</div>
+<div class='team' id='coke-can'>
+  <div class='name'>Leap Motion controlled Sumo Bot using Artoo</div>
+  <div class='Members'><a href="http://twitter.com/albus522">David Genord II</a></div>
+  <div class='description'>Full implementation can be found here: <a href="https://github.com/albus522/sumo_bot">albus522/sumo_bot</a></div>
+  <div class='builtwith'><strong>Built With:</strong> <i class='icon-uncheck'></i> Spark Core <i class='icon-checked'></i> LeapMotion <i class='icon-checked'></i> Arduino</div>
 </div>
