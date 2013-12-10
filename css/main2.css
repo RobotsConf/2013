@@ -382,3 +382,10 @@ body .speaker.hover {background-position: 15px -136px !important;  }
 	  	/*font-size: 85%; padding: 3px;}*/
 	}
 }
+
+
+
+.team { margin: 24px 0px;}
+.team .name { font-weight: bold; font-size:150%;}
+.team .name { font-weight: bold;}
+.team .builtwith i { margin-left: 24px;}
