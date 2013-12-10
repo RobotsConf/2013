@@ -15,3 +15,10 @@ id: projects
   <div class='description'>Simply connected up a resistor (330 Ohms) and a LED to the spark core. It was amazing.</div>
   <div class='builtwith'><strong>Built With:</strong> <i class='icon-check'></i> Spark Core <i class='icon-unchecked'></i> LeapMotion <i class='icon-unchecked'></i> Arduino</div>
 </div>
+
+<div class='team' id='coke-can'>
+  <div class='name'>Leap Motion controlled Sumo Bot using Artoo</div>
+  <div class='Members'><a href="http://twitter.com/albus522">David Genord II</a></div>
+  <div class='description'>Full implementation can be found here: <a href="https://github.com/albus522/sumo_bot">albus522/sumo_bot</a></div>
+  <div class='builtwith'><strong>Built With:</strong> <i class='icon-uncheck'></i> Spark Core <i class='icon-checked'></i> LeapMotion <i class='icon-checked'></i> Arduino</div>
+</div>
