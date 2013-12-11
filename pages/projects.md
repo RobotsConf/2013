@@ -33,3 +33,12 @@ id: projects
   <div class='description'>Full implementation can be found here: <a href="https://github.com/albus522/sumo_bot">albus522/sumo_bot</a></div>
   <div class='builtwith'><strong>Built With:</strong> <i class='icon-unchecked'></i> Spark Core <i class='icon-check'></i> LeapMotion <i class='icon-check'></i> Arduino</div>
 </div>
+
+<div class="team" id="splashr">
+  <div class="name">Splashr</div>
+  <div class="Members">
+    <a href="http://twitter.com/apaprocki">Andrew</a>
+  </div>
+  <div class="description">Used a Spark Core to construct a liquid sensor that uses Twilio to send SMS messages when water is detected. Intended to be in a wearable waterproof case attached to a toddler to alert parents immediately if the child falls into a nearby body of water / pool. Simple code available on GitHub as a <a href="https://gist.github.com/apaprocki/7903894">gist</a>.</div>
+  <div class="builtwith"><strong>Built With:</strong> <i class='icon-check'></i> Spark Core <i class='icon-unchecked'></i> LeapMotion <i class='icon-unchecked'></i> Arduino <i class='icon-check'></i> Node.js</div>
+</div>
