@@ -60,5 +60,5 @@ id: projects
     <a href="http://twitter.com/kaitlinbdevine">Kaitlin Devine</a>
   </div>
   <div class="description">Leap Motion controlled LED Christmas lights (or Leapmas, for short). Full description of project on the <a href="http://kaitlindevine.blogspot.com.au/2013/12/my-first-electronics-project-very-happy.html">Devine Intervention blog</a>. </div>
-  <div class="builtwith"><strong>Built With:</strong> <i class='icon-unchecked'></i> Spark Core <i class='icon-check'></i> LeapMotion <i class='icon-check'></i> Arduino <i class='icon-check'></i> Node.js</div>
+  <div class="builtwith"><strong>Built With:</strong> <i class='icon-unchecked'></i> Spark Core <i class='icon-check'></i> LeapMotion <i class='icon-check'></i> Arduino <i class='icon-unchecked'></i> Node.js</div>
 </div>
