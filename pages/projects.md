@@ -53,3 +53,12 @@ id: projects
   <div class="description">We wanted to make a guitar playing robot, but there was no guitar or strings. We prototyped using popsicle sticks and rubberbands. We mounted a servo motor and got it to pluck them using an arduino. Kevin then wrote some Kinect code to send serial messages to the Arduino to trigger the servo when it detected a Pete Townsend style strum. Marc went back and made a nicer enclosure using the box generator extension in Inkscape that we got laser cut. Many detours were taken, particularly devising a mechanism for a slide when we thought we had a line on a guitar. We will get the code posted eventually. Marc intends to continue working on stringed instrument robots.</div>
   <div class="builtwith"><strong>Built With:</strong> <i class='icon-check'></i> Arduino <i class='icon-check'></i> Kinect <i class='icon-check'></i> C#</div>
 </div>
+
+<div class="team" id="leapmas">
+  <div class="name">Leapmas</div>
+  <div class="Members">
+    <a href="http://twitter.com/kaitlinbdevine">Kaitlin Devine</a>
+  </div>
+  <div class="description">Leap Motion controlled LED Christmas lights (or Leapmas, for short). Full description of project on the <a href="http://kaitlindevine.blogspot.com.au/2013/12/my-first-electronics-project-very-happy.html">Devine Intervention blog</a>. </div>
+  <div class="builtwith"><strong>Built With:</strong> <i class='icon-unchecked'></i> Spark Core <i class='icon-check'></i> LeapMotion <i class='icon-check'></i> Arduino <i class='icon-unchecked'></i> Node.js</div>
+</div>
